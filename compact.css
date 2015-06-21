@@ -69,11 +69,36 @@
 /* Fix Position of 2nd line items */
 .A0FHG6C-W-j {margin-top: 11px !important;font-size: 10px;width: 300px;padding-right: 20px;color: black;}
 
-/* Set Answered to just a Block Square */
-.A0FHG6C-W-a {background-color: #5d80ef !important;border-radius: 0px !important;color: #5d80ef !important;  display: inline-block !important;font-size: 12px !important;font-weight: bolder !important;  margin: -4px 0 !important;margin-top: -7px !important;margin-right: 0px !important;  padding: 0px 0px 0 !important;white-space: nowrap !important;overflow: hidden !important; width: 20px !important;}
+/* Best Answer CSS Code */
+.A0FHG6C-W-a {
+  background-color: #5d80ef !important;
+  border-radius: 0px !important;
+  color: white !important;
+  display: inline-block !important;
+  font-size: 12px !important;
+  font-weight: normal !important;
+  margin: 0px 0 !important;
+  margin-top: -5px !important;
+  margin-right: 0px !important;
+  padding: 3px 0px 3px 4px !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  width: 60px !important;
+  position: relative !important;
+  left: -33px !important;
+}
 
 /* Improve Margin for rows with no icons or answered */
-.A0FHG6C-W-k {font-size: 11px !important;margin-top: -12px !important; margin-right: 6px;color: black;width: 385px;}
+.A0FHG6C-W-k {
+  font-size: 11px !important;
+  margin-top: -12px !important;
+  margin-right: 6px !important;
+  color: black !important;
+  width: 385px !important;
+  position: relative !important;
+  left: 172px;
+  display: -webkit-box;
+}
 
 /* Left align the Post Count Column where possible */
 .A0FHG6C-W-j, .A0FHG6C-W-j>:not(:last-child), .A0FHG6C-W-k>:not(:last-child) {margin-right: 12px;text-align: left;}
