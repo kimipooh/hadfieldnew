@@ -1,0 +1,84 @@
+/* Remove Slider */
+.gwt-HTML.A0FHG6C-T-O {display: none;}
+
+/* Reduced Topics and Discussion Categories top margin */
+.A0FHG6C-T-x {margin: 4px 0 2px 22px !important;}
+
+/* Hide Pinned Topics */
+.A0FHG6C-T-w {display: none;}
+
+/* Row Margin Reduction */
+.A0FHG6C-T-i .A0FHG6C-T-L {padding: 0px 0 0;}
+
+/* Right Side Icon Position Fix */
+.A0FHG6C-W-h {margin-top: -2px !important; width:32px;}
+
+/* Hide Best Answer Icon */
+.A0FHG6C-W-b {display: none;}
+
+/* Post and View Count Font and Color Change */
+.A0FHG6C-T-K>:first-child {max-width: 32px;min-width: 32px;}
+.A0FHG6C-T-y {padding-left: 6px;padding-right: 12px; padding-top: 9px;}
+
+/* Increase Avatar Size and Alignment */
+.A0FHG6C-T-M .A0FHG6C-T-y .A0FHG6C-M-b img {height: 24px;width: 24px;margin: -6px -11px !important;}
+
+/* Escalated/Dupicate/Moved in and Locked Item Position fix and opacity removal*/
+.A0FHG6C-lb-b {opacity: 1;margin-bottom: -7px;width:14px;}
+.A0FHG6C-T-y .A0FHG6C-M-b {opacity: 1;}
+
+/* Remove Switch Back Nag Bar */
+.A0FHG6C-o-a {display: none;}
+
+/* Square Avatars */
+.A0FHG6C-M-b>a>img {border-radius: 0px;}
+
+/* Reduced Fixed Header Margins */
+.A0FHG6C-d-a {height: 26px;}
+
+/* Fix Width of title and stop wrapping */
+.A0FHG6C-T-H {display: block !important;width: 680px !important;white-space: nowrap !important;overflow: hidden !important;font-size:11px;}
+
+/* Float Author and Time to the right */
+.A0FHG6C-W-l {display: block !important;float: right !important;width: 400px !important;margin-top: -29px;}
+
+/* Fix the Author Width */
+.A0FHG6C-W-c {width: 82px;font-size: 10px;}
+
+/* Hide Empty Divs */
+.A0FHG6C-T-G {margin-left: -60px;  margin-top: 2px;  position: relative; top: -22px;}
+.A0FHG6C-T-E {display: none !important;}
+
+/* Hide Avatar */
+.A0FHG6C-T-i .A0FHG6C-T-L .A0FHG6C-M-b {display: none;}
+
+/* Set Row Width */
+.A0FHG6C-T-J {min-height: 20px !important;padding-top: 1px !important;height: 20px;}
+
+/* Fix Checkbox position */
+.A0FHG6C-U-c {margin-left: 0px !important;margin-top: -8px !important;display: block !important;}
+
+/* Tidy Alignment */
+.A0FHG6C-T-K {margin-right: 0px;margin-left: -26px;padding-top: 3px;}
+
+/* Tidy Right Aligned Icons */
+.A0FHG6C-M-a {width: 16px !important; padding-top: 0px !important;}
+
+
+/* Fix Position of 2nd line items */
+.A0FHG6C-W-j {margin-top: 11px !important;font-size: 10px;width: 300px;padding-right: 20px;color: black;}
+
+/* Set Answered to just a Block Square */
+.A0FHG6C-W-a {background-color: #5d80ef !important;border-radius: 0px !important;color: #5d80ef !important;  display: inline-block !important;font-size: 12px !important;font-weight: bolder !important;  margin: -4px 0 !important;margin-top: -7px !important;margin-right: 0px !important;  padding: 0px 0px 0 !important;white-space: nowrap !important;overflow: hidden !important; width: 20px !important;}
+
+/* Improve Margin for rows with no icons or answered */
+.A0FHG6C-W-k {font-size: 11px !important;margin-top: -12px !important; margin-right: 6px;color: black;width: 385px;}
+
+/* Left align the Post Count Column where possible */
+.A0FHG6C-W-j, .A0FHG6C-W-j>:not(:last-child), .A0FHG6C-W-k>:not(:last-child) {margin-right: 12px;text-align: left;}
+
+/* Style the Views and Posts Differently */
+div.A0FHG6C-W-k > div:first-child {color:red !important;width: 32px;}
+div.A0FHG6C-W-k > div:nth-child(2) {color:blue !important;width: 32px;}
+
+
