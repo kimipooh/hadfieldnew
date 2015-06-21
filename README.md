@@ -74,6 +74,8 @@ Version 0.61
 Version 0.62
 - Improved alignment of Answered and multiple Right column Icons
 
+Version 0.63
+- Version to remove some other forums "hero" sliders
 
 Known Issues
 - Rows without right column Icon such as Expert Reply, Answered etc cause the Post and View counts to be mis-aligned
