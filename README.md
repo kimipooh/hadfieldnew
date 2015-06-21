@@ -77,5 +77,8 @@ Version 0.62
 Version 0.63
 - Version to remove some other forums "hero" sliders
 
+Version 0.64
+- Updated comment for Slider/Hero Removal
+
 Known Issues
 - Rows without right column Icon such as Expert Reply, Answered etc cause the Post and View counts to be mis-aligned
