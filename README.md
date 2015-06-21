@@ -85,4 +85,4 @@ Version 0.65
 
 
 Known Issues
-- None Currently
+See the Issues Log https://github.com/darkufo/hadfieldnew/issues
