@@ -82,6 +82,7 @@ Version 0.64
 
 Version 0.65
 - Fixed issue with alignment when no icons appear in the far right columns such as answered, TC / RC etc
-- 
+
+
 Known Issues
 - None Currently
