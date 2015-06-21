@@ -80,5 +80,8 @@ Version 0.63
 Version 0.64
 - Updated comment for Slider/Hero Removal
 
+Version 0.65
+- Fixed issue with alignment when no icons appear in the far right columns such as answered, TC / RC etc
+- 
 Known Issues
-- Rows without right column Icon such as Expert Reply, Answered etc cause the Post and View counts to be mis-aligned
+- None Currently
