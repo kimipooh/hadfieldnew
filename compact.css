@@ -1,5 +1,6 @@
-/* Remove Slider */
+/* Remove Sliders and Hero Banners */
 .gwt-HTML.A0FHG6C-T-O {display: none;}
+.A0FHG6C-tb-o {height: 260px;margin: 24px auto;overflow: hidden;display: none;}
 
 /* Reduced Topics and Discussion Categories top margin */
 .A0FHG6C-T-x {margin: 4px 0 2px 22px !important;}
