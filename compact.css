@@ -101,11 +101,11 @@
 }
 
 /* Left align the Post Count Column where possible */
-.A0FHG6C-W-j, .A0FHG6C-W-j>:not(:last-child), .A0FHG6C-W-k>:not(:last-child) {margin-right: 12px;text-align: left;}
+.A0FHG6C-W-j, .A0FHG6C-W-j>:not(:last-child), .A0FHG6C-W-k>:not(:last-child) {margin-right: 0px;text-align: left;}
 
 /* Style the Views and Posts Differently */
 div.A0FHG6C-W-k > div:first-child {color:red !important;width: 32px;}
-div.A0FHG6C-W-k > div:nth-child(2) {color:blue !important;width: 32px;}
+div.A0FHG6C-W-k > div:nth-child(2) {color:blue !important;width: 50px;}
 
 /* Fix to make sure Starred Discussion display */
 .A0FHG6C-T-K .A0FHG6C-T-j .A0FHG6C-V-a {
