@@ -47,7 +47,7 @@
 .A0FHG6C-W-c {width: 82px;font-size: 10px;}
 
 /* Hide Empty Divs */
-.A0FHG6C-T-G {margin-left: -60px;  margin-top: 2px;  position: relative; top: -22px;}
+.A0FHG6C-T-G {margin-left: -76px;  margin-top: 2px;  position: relative; top: -22px;}
 .A0FHG6C-T-E {display: none !important;}
 
 /* Hide Avatar */
@@ -107,4 +107,16 @@
 div.A0FHG6C-W-k > div:first-child {color:red !important;width: 32px;}
 div.A0FHG6C-W-k > div:nth-child(2) {color:blue !important;width: 32px;}
 
+/* Fix to make sure Starred Discussion display */
+.A0FHG6C-T-K .A0FHG6C-T-j .A0FHG6C-V-a {
+  display: inline-block;
+  float: left;
+  position: relative;
+  left: 0px;
+  margin-left: -100px;
+}
 
+/* Hides the forum column on Starred Discussion until a fix can be found */
+.A0FHG6C-W-i {
+  display: none;
+}
