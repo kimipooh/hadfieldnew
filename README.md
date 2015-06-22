@@ -86,6 +86,8 @@ Version 0.65
 Version 0.66
 - Improvements to starred discussions and fixing issues with old posts date column
 
+Version 0.67
+- Fixes issues with large monitors and the autoscrolling not working
 
 
 Known Issues
