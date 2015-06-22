@@ -83,6 +83,10 @@ Version 0.64
 Version 0.65
 - Fixed issue with alignment when no icons appear in the far right columns such as answered, TC / RC etc
 
+Version 0.66
+- Improvements to starred discussions and fixing issues with old posts date column
+
+
 
 Known Issues
 
