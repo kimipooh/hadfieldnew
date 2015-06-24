@@ -109,23 +109,13 @@ div.A0FHG6C-W-k > div:first-child {color:red !important;width: 32px;}
 div.A0FHG6C-W-k > div:nth-child(2) {color:blue !important;width: 50px;}
 
 /* Fix to make sure Starred Discussion display */
-.A0FHG6C-T-K .A0FHG6C-T-j .A0FHG6C-V-a {
-  display: inline-block;
-  float: left;
-  position: relative;
-  left: 0px;
-  margin-left: -100px;
-}
+.A0FHG6C-T-K .A0FHG6C-T-j .A0FHG6C-V-a {display: inline-block;float: left;position: relative;left: 0px;margin-left: -100px;}
 
 /* Hides the forum column on Starred Discussion until a fix can be found */
-.A0FHG6C-W-i {
-  display: none;
-}
+.A0FHG6C-W-i {display: none;}
 
 /* Sets the min-height of the rows container to force the scroll bars and trigger the auto-loading */
-.A0FHG6C-T-L {
-  min-height: 2000px;
-}
+.A0FHG6C-T-L {min-height: 2000px;}
 
 
 /* ----------------- */
@@ -133,96 +123,52 @@ div.A0FHG6C-W-k > div:nth-child(2) {color:blue !important;width: 50px;}
 /* ----------------- */
 
 /* Author Bold and Blue */
-.A0FHG6C-L-c {
-  color: blue;
-  font-weight: bold;
-}
+.A0FHG6C-L-c {color: blue;font-weight: bold;}
 
 /* Hide similar topics  */
-.A0FHG6C-L-lb {
-  display: none;
-}
+.A0FHG6C-L-lb {display: none;}
 
 /* full length rows. */
-.A0FHG6C-L-U .A0FHG6C-K-c, .A0FHG6C-L-U .A0FHG6C-K-a {
-  margin-right: 0px;
-  margin-bottom: -25px;
-}
-
+.A0FHG6C-L-U .A0FHG6C-K-c, .A0FHG6C-L-U .A0FHG6C-K-a {margin-right: 0px;margin-bottom: -25px;}
 
 /* help reduce row spacing */
-.A0FHG6C-L-Q {
-  margin-bottom: 0px;
-  min-height: 0px;
-}
+.A0FHG6C-L-Q {margin-bottom: 0px;min-height: 0px;}
 
 /* Remove empty replies header */
-.A0FHG6C-L-G {
-  display: none;
-}
+.A0FHG6C-L-G {display: none;}
 
 /* reduce row padding */
-.A0FHG6C-L-W .A0FHG6C-L-Q {
-  min-height: 0;
-  padding: 6px 24px;
-}
+.A0FHG6C-L-W .A0FHG6C-L-Q {min-height: 0;padding: 6px 24px;}
 
 /* top article bottom padding */
-.A0FHG6C-L-bb .A0FHG6C-L-V {
-  padding-bottom: 0px;
-}
+.A0FHG6C-L-bb .A0FHG6C-L-V {padding-bottom: 0px;}
 
 /* Left icon sizes */
-.A0FHG6C-M-e>a>img {
-  border-radius: 26px;
-  width: 18px;
-}
+.A0FHG6C-M-e>a>img {border-radius: 26px;width: 18px;}
 
 /* Left icon div placeholder */
-.A0FHG6C-M-e {
-  border-radius: 18px;
-  height: 18px;
-  width: 18px;
-}
+.A0FHG6C-M-e {border-radius: 18px;height: 18px;width: 18px;}
 
 /* Remove strange blank div in the original article */
-.A0FHG6C-L-bb .A0FHG6C-L-D, .A0FHG6C-L-h .A0FHG6C-L-D {
-  margin-top: 15px;
-  padding-top: 15px;
-  display: none;
-}
+.A0FHG6C-L-bb .A0FHG6C-L-D, .A0FHG6C-L-h .A0FHG6C-L-D {display: none;}
 
 /* Remove the left indent for replies */
-.A0FHG6C-L-U .A0FHG6C-L-S {
-  padding-left: 0px;
-}
+.A0FHG6C-L-U .A0FHG6C-L-S {padding-left: 0px;}
 
 /*Move icons to outside the reply area */
-.A0FHG6C-L-yb {
-  margin-left: -114px;
-}
+.A0FHG6C-L-yb {margin-left: -114px;}
 
 /* Move Up and Down Navigator Widget outside the reply area */
-.A0FHG6C-P-b {
-  margin-left: -160px;
-}
+.A0FHG6C-P-b {margin-left: -160px;}
 
 /* Change Author name to Blue Bold for new replies */
-.A0FHG6C-L-Q .A0FHG6C-L-c h3>span {
-  color: blue;
-  font-weight: bold;
-}
+.A0FHG6C-L-Q .A0FHG6C-L-c h3>span {color: blue;font-weight: bold;}
 
 /* Hide the Plus 1 Button */
-.A0FHG6C-L-U .A0FHG6C-L-Cb {
-  display: none;
-}
+.A0FHG6C-L-U .A0FHG6C-L-Cb {display: none;}
+
 /* Reduce bottom padding of new replies */
-.A0FHG6C-L-U .A0FHG6C-L-Q .A0FHG6C-L-d {
-  margin: 0 41px 10px 0;
-}
+.A0FHG6C-L-U .A0FHG6C-L-Q .A0FHG6C-L-d {margin: 0 41px 10px 0;}
 
 /* Reduce top padding of new replies */
-.A0FHG6C-L-Q {
-  padding: 8px 24px;
-}
+.A0FHG6C-L-Q {padding: 8px 24px;}
