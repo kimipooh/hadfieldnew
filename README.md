@@ -2,7 +2,6 @@
 
 As it seems that Google won't be doing a proper compact mode for us for a while, I thought I'd try to share what I use to give back some of the old GPF power user compact that I know a number of us rely on.
 
-
 I've used the Chrome Extension Stylebot for this but I've tided up the CSS so that it should work with similar extensions/addons with Firefox/Opera etc
 
 I've also commented the CSS so that you can see what I'm doing and tweak it yourself for your own preferences.
@@ -17,6 +16,11 @@ The key things for me here were to
 - Square Avatars
 - Reduce excessive margins and padding
 - Expose the checkboxes for easier access
+- Improved Posts and Reply Screens
+- Improved padding for new replies 
+- Hiding the +1 button
+- Author Name more visible for new replies. 
+- Replies now full width with the avatars and nav widget outside
 
 You can install Stylebot Here
 https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha
