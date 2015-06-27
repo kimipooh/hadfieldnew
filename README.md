@@ -96,6 +96,9 @@ Version 0.67
 Version 1
 - I have decided to merge the Post Listing as well as the Post Pages CSS into one style. If you don't want to use the CSS of post pages look for this comment /* Post Compact Code */ and remove everything under it.
 
+Version 1.01
+- Minor update to Comments and to tidy the CSS 
+
 Known Issues
 
 See the Issues Log https://github.com/darkufo/hadfieldnew/issues
