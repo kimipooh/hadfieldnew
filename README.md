@@ -99,6 +99,10 @@ Version 1
 Version 1.01
 - Minor update to Comments and to tidy the CSS 
 
+Version 1.02
+- Improved row spacing for Answered Icon
+- Improved alignment of Answered Icon
+
 Known Issues
 
 See the Issues Log https://github.com/darkufo/hadfieldnew/issues
