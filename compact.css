@@ -117,6 +117,12 @@ div.A0FHG6C-W-k > div:nth-child(2) {color:blue !important;width: 50px;}
 /* Sets the min-height of the rows container to force the scroll bars and trigger the auto-loading */
 .A0FHG6C-T-L {min-height: 2000px;}
 
+/* Hide avatars in wide list view SD */
+/* Submitted by Selden */
+.A0FHG6C-T-y .A0FHG6C-M-b {
+    opacity: 1;
+    display: none;
+}
 
 
 /* ----------------- */
