@@ -184,3 +184,13 @@ div.A0FHG6C-W-k > div:nth-child(2) {color:blue !important;width: 50px;}
 
 /* Reduce top padding of new replies */
 .A0FHG6C-L-Q {padding: 8px 24px;}
+
+
+/* ----------------- */
+/* Forum About Page */
+/* ----------------- */
+
+/* Wrap long contributor names */
+.A0FHG6C-D-m .A0FHG6C-D-p {
+  white-space: normal;
+}
