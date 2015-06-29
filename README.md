@@ -103,6 +103,9 @@ Version 1.02
 - Improved row spacing for Answered Icon
 - Improved alignment of Answered Icon
 
+Version 1.03
+- Hide Avatar in wide list mode
+
 Known Issues
 
 See the Issues Log https://github.com/darkufo/hadfieldnew/issues
