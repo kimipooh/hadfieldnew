@@ -123,6 +123,10 @@ div.A0FHG6C-W-k > div:nth-child(2) {color:blue !important;width: 50px;}
     opacity: 1;
     display: none;
 }
+/* Hide the 1 Expert Reply Text in Wide List mode */
+.A0FHG6C-W-e {
+  display: none;
+}
 
 
 /* ----------------- */
@@ -139,7 +143,8 @@ div.A0FHG6C-W-k > div:nth-child(2) {color:blue !important;width: 50px;}
 .A0FHG6C-L-U .A0FHG6C-K-c, .A0FHG6C-L-U .A0FHG6C-K-a {margin-right: 0px;margin-bottom: -25px;}
 
 /* help reduce row spacing */
-.A0FHG6C-L-Q {margin-bottom: 0px;min-height: 0px;}
+.A0FHG6C-L-Q {margin-bottom: 0px;min-height: 0px !important;}
+
 
 /* Remove empty replies header */
 .A0FHG6C-L-G {display: none;}
