@@ -139,7 +139,7 @@ div.A0FHG6C-W-k > div:nth-child(2) {color:blue !important;width: 50px;}
 /* Hide similar topics  */
 .A0FHG6C-L-lb {display: none;}
 
-/* full length rows. */
+/* Make the reply rows the same length as the original post */
 .A0FHG6C-L-U .A0FHG6C-K-c, .A0FHG6C-L-U .A0FHG6C-K-a {margin-right: 0px;margin-bottom: -25px;}
 
 /* help reduce row spacing */
@@ -167,7 +167,7 @@ div.A0FHG6C-W-k > div:nth-child(2) {color:blue !important;width: 50px;}
 /* Remove the left indent for replies */
 .A0FHG6C-L-U .A0FHG6C-L-S {padding-left: 0px;}
 
-/*Move icons to outside the reply area */
+/* Move icons to outside the reply area */
 .A0FHG6C-L-yb {margin-left: -114px;}
 
 /* Move Up and Down Navigator Widget outside the reply area */
