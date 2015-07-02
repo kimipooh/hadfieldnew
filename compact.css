@@ -143,7 +143,7 @@ div.A0FHG6C-W-k > div:nth-child(2) {color:blue !important;width: 50px;}
 /* Make Sure the Action Bar remains visible and on top */
 .A0FHG6C-c-a {
   position: fixed;
-  z-index: 99999999999999999999999;
+  z-index: 9;
 }
 
 /* Off set the Post Listing so now that Search and Action bar are fixed */
