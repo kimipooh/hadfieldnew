@@ -106,6 +106,11 @@ Version 1.02
 Version 1.03
 - Hide Avatar in wide list mode
 
+Version 1.04
+- Fixes the Search Bar to the top of the page
+- Optionally hide the Forum Name and Logo
+
+
 Known Issues
 
 See the Issues Log https://github.com/darkufo/hadfieldnew/issues
