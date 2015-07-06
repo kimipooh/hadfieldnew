@@ -156,6 +156,25 @@ div.A0FHG6C-W-k > div:nth-child(2) {color:blue !important;width: 50px;}
  /* display: none; */
 }
 
+/* --------------------------------------- */
+/* Reveal the post snippet on hover        */
+/* Thanks to backy0175 for the inspiration */
+/* --------------------------------------- */
+.A0FHG6C-T-H:hover ~ .A0FHG6C-T-E {
+    background-color: #4285f4 ;
+    color: white;
+    display: block ;
+    position: absolute ;
+    top: 1em;
+    left: 20em;
+    width: 400px;
+    padding: 20px;
+    z-index: 999;
+    font-size: 16px;
+}
+
+
+
 
 /* ----------------- */
 /* Post Compact Code */

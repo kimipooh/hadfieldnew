@@ -110,6 +110,8 @@ Version 1.04
 - Fixes the Search Bar to the top of the page
 - Optionally hide the Forum Name and Logo
 
+Version 1.05
+- Post Snippets now reveal on hover. Thanks to backy0175  for the inspiration
 
 Known Issues
 
