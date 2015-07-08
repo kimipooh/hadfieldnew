@@ -113,6 +113,9 @@ Version 1.04
 Version 1.05
 - Post Snippets now reveal on hover. Thanks to backy0175  for the inspiration
 
+Version 1.051
+- Fixed issue with some Google changes to the CSS. 
+
 Known Issues
 
 See the Issues Log https://github.com/darkufo/hadfieldnew/issues
