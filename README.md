@@ -116,6 +116,9 @@ Version 1.05
 Version 1.051
 - Fixed issue with some Google changes to the CSS. 
 
+Version 1.06
+- Fixes recent Hadfield update to class names.
+
 Known Issues
 
 See the Issues Log https://github.com/darkufo/hadfieldnew/issues
