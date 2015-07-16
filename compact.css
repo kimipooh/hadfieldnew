@@ -1,76 +1,79 @@
 /* Remove Sliders and Hero Banners */
-.gwt-HTML.A0FHG6C-T-O {display: none;}
-.A0FHG6C-tb-o {height: 260px;margin: 24px auto;overflow: hidden;display: none;}
+.LB0ILCD-T-O {display:none;}
 
 /* Reduced Topics and Discussion Categories top margin */
-.A0FHG6C-T-x {margin: 4px 0 2px 22px !important;}
+.LB0ILCD-T-x {margin: 4px 0 2px 22px !important;}
 
 /* Hide Pinned Topics */
-.A0FHG6C-T-w {display: none;}
+.LB0ILCD-T-w {display: none;}
 
 /* Row Margin Reduction */
-.A0FHG6C-T-i .A0FHG6C-T-L {padding: 0px 0 0;}
+.LB0ILCD-T-i .LB0ILCD-T-L {padding: 0px 0 0;}
 
 /* Right Side Icon Position Fix */
-.A0FHG6C-W-h {margin-top: -2px !important; width:32px;}
+.LB0ILCD-W-h {margin-top: -2px !important; width:32px;}
 
 /* Hide Best Answer Icon */
-.A0FHG6C-W-b {display: none;}
+.LB0ILCD-W-b {display: none;}
 
 /* Post and View Count Font and Color Change */
-.A0FHG6C-T-K>:first-child {max-width: 32px;min-width: 32px;}
-.A0FHG6C-T-y {padding-left: 6px;padding-right: 12px; padding-top: 9px;}
+.LB0ILCD-T-K>:first-child {max-width: 32px;min-width: 32px;}
+.LB0ILCD-T-y {padding-left: 6px;padding-right: 12px; padding-top: 9px;}
 
 /* Increase Avatar Size and Alignment */
-.A0FHG6C-T-M .A0FHG6C-T-y .A0FHG6C-M-b img {height: 24px;width: 24px;margin: -6px -11px !important;}
+.LB0ILCD-T-M .LB0ILCD-T-y .LB0ILCD-M-b img {height: 24px;width: 24px;margin: -6px -11px !important;}
+
+
+
+
 
 /* Escalated/Dupicate/Moved in and Locked Item Position fix and opacity removal*/
-.A0FHG6C-lb-b {opacity: 1;margin-bottom: -7px;width:14px;}
-.A0FHG6C-T-y .A0FHG6C-M-b {opacity: 1;}
+.LB0ILCD-lb-b {opacity: 1;margin-bottom: -7px;width:14px;}
+.LB0ILCD-T-y .LB0ILCD-M-b {opacity: 1;}
 
 /* Remove Switch Back Nag Bar */
-.A0FHG6C-o-a {display: none;}
+.LB0ILCD-o-a {display: none;}
 
 /* Square Avatars */
-.A0FHG6C-M-b>a>img {border-radius: 0px;}
+.LB0ILCD-M-b>a>img {border-radius: 0px;}
 
 /* Reduced Fixed Header Margins */
-.A0FHG6C-d-a {height: 26px;}
+.LB0ILCD-d-a {height: 26px;}
 
 /* Fix Width of title and stop wrapping */
-.A0FHG6C-T-H {display: block !important;width: 680px !important;white-space: nowrap !important;overflow: hidden !important;font-size:11px;}
+.LB0ILCD-T-H {display: block !important;width: 680px !important;white-space: nowrap !important;overflow: hidden !important;font-size:11px;}
 
 /* Float Author and Time to the right */
-.A0FHG6C-W-l {display: block !important;float: right !important;width: 400px !important;margin-top: -29px;}
+.LB0ILCD-W-l {display: block !important;float: right !important;width: 400px !important;margin-top: -29px;}
 
 /* Fix the Author Width */
-.A0FHG6C-W-c {width: 82px;font-size: 10px;}
+.LB0ILCD-W-c {width: 82px;font-size: 10px;}
 
 /* Hide Empty Divs */
-.A0FHG6C-T-G {margin-left: -76px;  margin-top: 2px;  position: relative; top: -22px;}
-.A0FHG6C-T-E {display: none !important;}
+.LB0ILCD-T-G {margin-left: -76px;  margin-top: 2px;  position: relative; top: -22px;}
+.LB0ILCD-T-E {display: none !important;}
 
 /* Hide Avatar */
-.A0FHG6C-T-i .A0FHG6C-T-L .A0FHG6C-M-b {display: none;}
+.LB0ILCD-T-i .LB0ILCD-T-L .LB0ILCD-M-b {display: none;}
 
 /* Set Row Width */
-.A0FHG6C-T-J {min-height: 20px !important;padding-top: 1px !important;height: 20px;}
+.LB0ILCD-T-J {min-height: 20px !important;padding-top: 1px !important;height: 20px;}
 
 /* Fix Checkbox position */
-.A0FHG6C-U-c {margin-left: 0px !important;margin-top: -8px !important;display: block !important;}
+.LB0ILCD-U-c {margin-left: 0px !important;margin-top: -8px !important;display: block !important;}
 
 /* Tidy Alignment */
-.A0FHG6C-T-K {margin-right: 0px;margin-left: -26px;padding-top: 3px;}
+.LB0ILCD-T-K {margin-right: 0px;margin-left: -26px;padding-top: 3px;}
 
 /* Tidy Right Aligned Icons */
-.A0FHG6C-M-a {width: 16px !important; padding-top: 0px !important;}
+.LB0ILCD-M-a {width: 16px !important; padding-top: 0px !important;}
 
 
 /* Fix Position of 2nd line items */
-.A0FHG6C-W-j {margin-top: 11px !important;font-size: 10px;width: 300px;padding-right: 20px;color: black;}
+.LB0ILCD-W-j {margin-top: 11px !important;font-size: 10px;width: 300px;padding-right: 20px;color: black;}
 
 /* Best Answer CSS Code */
-.A0FHG6C-W-a {
+.LB0ILCD-W-a {
   background-color: #5d80ef !important;
   border-radius: 0px !important;
   color: white !important;
@@ -90,7 +93,7 @@
 }
 
 /* Improve Margin for rows with no icons or answered */
-.A0FHG6C-W-k {
+.LB0ILCD-W-k {
   font-size: 11px !important;
   margin-top: -12px !important;
   margin-right: 6px !important;
@@ -102,29 +105,34 @@
 }
 
 /* Left align the Post Count Column where possible */
-.A0FHG6C-W-j, .A0FHG6C-W-j>:not(:last-child), .A0FHG6C-W-k>:not(:last-child) {margin-right: 0px;text-align: left;}
+.LB0ILCD-W-j, .LB0ILCD-W-j>:not(:last-child), .LB0ILCD-W-k>:not(:last-child) {margin-right: 0px;text-align: left;}
+
+/* Hide the new Updated by Column */
+.LB0ILCD-W-j div:nth-child(2){
+    display:none;
+ }
 
 /* Style the Views and Posts Differently */
-div.A0FHG6C-W-k > div:first-child {color:red !important;width: 32px;}
-div.A0FHG6C-W-k > div:nth-child(2) {color:blue !important;width: 50px;}
+div.LB0ILCD-W-k > div:first-child {color:red !important;width: 32px;}
+div.LB0ILCD-W-k > div:nth-child(2) {color:blue !important;width: 50px;}
 
 /* Fix to make sure Starred Discussion display */
-.A0FHG6C-T-K .A0FHG6C-T-j .A0FHG6C-V-a {display: inline-block;float: left;position: relative;left: 0px;margin-left: -100px;}
+.LB0ILCD-T-K .LB0ILCD-T-j .LB0ILCD-V-a {display: inline-block;float: left;position: relative;left: 0px;margin-left: -100px;}
 
 /* Hides the forum column on Starred Discussion until a fix can be found */
-.A0FHG6C-W-i {display: none;}
+.LB0ILCD-W-i {display: none;}
 
 /* Sets the min-height of the rows container to force the scroll bars and trigger the auto-loading */
-.A0FHG6C-T-L {min-height: 1000px;}
+.LB0ILCD-T-L {min-height: 1000px;}
 
 /* Hide avatars in wide list view SD */
 /* Submitted by Selden */
-.A0FHG6C-T-y .A0FHG6C-M-b {
+.LB0ILCD-T-y .LB0ILCD-M-b {
     opacity: 1;
     display: none;
 }
 /* Hide the 1 Expert Reply Text in Wide List mode */
-.A0FHG6C-W-e {
+.LB0ILCD-W-e {
   display: none;
 }
 
@@ -141,19 +149,19 @@ div.A0FHG6C-W-k > div:nth-child(2) {color:blue !important;width: 50px;}
 }
 
 /* Make Sure the Action Bar remains visible and on top */
-.A0FHG6C-c-a {
+.LB0ILCD-c-a {
   position: fixed;
   z-index: 9;
   margin-top: -60px;
 }
 
 /* Off set the Post Listing so now that Search and Action bar are fixed */
-.A0FHG6C-c-s {
+.LB0ILCD-c-s {
   margin-top: 60px;
 }
 
 /* Remove comment to hide the Forum Name and Logo */
-.A0FHG6C-X-a .A0FHG6C-A-a {
+.LB0ILCD-X-a .LB0ILCD-A-a {
  /* display: none; */
 }
 
@@ -161,7 +169,7 @@ div.A0FHG6C-W-k > div:nth-child(2) {color:blue !important;width: 50px;}
 /* Reveal the post snippet on hover        */
 /* Thanks to backy0175 for the inspiration */
 /* --------------------------------------- */
-.A0FHG6C-T-H:hover ~ .A0FHG6C-T-E {
+.LB0ILCD-T-H:hover ~ .LB0ILCD-T-E {
     background-color: #4285f4 ;
     color: white;
     display: block ;
@@ -182,56 +190,57 @@ div.A0FHG6C-W-k > div:nth-child(2) {color:blue !important;width: 50px;}
 /* ----------------- */
 
 /* Author Bold and Blue */
-.A0FHG6C-L-c {color: blue;font-weight: bold;}
+.LB0ILCD-L-c {color: blue;font-weight: bold;}
+
 
 /* Hide similar topics  */
-.A0FHG6C-L-lb {display: none;}
+.LB0ILCD-L-lb {display: none;}
 
 /* Make the reply rows the same length as the original post */
-.A0FHG6C-L-U .A0FHG6C-K-c, .A0FHG6C-L-U .A0FHG6C-K-a {margin-right: 0px;margin-bottom: -25px;}
+.LB0ILCD-L-U .LB0ILCD-K-c, .LB0ILCD-L-U .LB0ILCD-K-a {margin-right: 0px;margin-bottom: -25px;}
 
 /* help reduce row spacing */
-.A0FHG6C-L-Q {margin-bottom: 0px;min-height: 0px !important;}
+.LB0ILCD-L-Q {margin-bottom: 0px;min-height: 0px !important;}
 
 
 /* Remove empty replies header */
-.A0FHG6C-L-G {display: none;}
+.LB0ILCD-L-G {display: none;}
 
 /* reduce row padding */
-.A0FHG6C-L-W .A0FHG6C-L-Q {min-height: 0;padding: 6px 24px;}
+.LB0ILCD-L-W .LB0ILCD-L-Q {min-height: 0;padding: 6px 24px;}
 
 /* top article bottom padding */
-.A0FHG6C-L-bb .A0FHG6C-L-V {padding-bottom: 0px;}
+.LB0ILCD-L-bb .LB0ILCD-L-V {padding-bottom: 0px;}
 
 /* Left icon sizes */
-.A0FHG6C-M-e>a>img {border-radius: 26px;width: 18px;}
+.LB0ILCD-M-e>a>img {border-radius: 26px;width: 18px;}
 
 /* Left icon div placeholder */
-.A0FHG6C-M-e {border-radius: 18px;height: 18px;width: 18px;}
+.LB0ILCD-M-e {border-radius: 18px;height: 18px;width: 18px;}
 
 /* Remove strange blank div in the original article */
-.A0FHG6C-L-bb .A0FHG6C-L-D, .A0FHG6C-L-h .A0FHG6C-L-D {display: none;}
+.LB0ILCD-L-bb .LB0ILCD-L-D, .LB0ILCD-L-h .LB0ILCD-L-D {display: none;}
 
 /* Remove the left indent for replies */
-.A0FHG6C-L-U .A0FHG6C-L-S {padding-left: 0px;}
+.LB0ILCD-L-U .LB0ILCD-L-S {padding-left: 0px;}
 
 /* Move icons to outside the reply area */
-.A0FHG6C-L-yb {margin-left: -114px;}
+.LB0ILCD-L-yb {margin-left: -114px;}
 
 /* Move Up and Down Navigator Widget outside the reply area */
-.A0FHG6C-P-b {margin-left: -160px;}
+.LB0ILCD-P-b {margin-left: -160px;}
 
 /* Change Author name to Blue Bold for new replies */
-.A0FHG6C-L-Q .A0FHG6C-L-c h3>span {color: blue;font-weight: bold;}
+.LB0ILCD-L-Q .LB0ILCD-L-c h3>span {color: blue;font-weight: bold;}
 
 /* Hide the Plus 1 Button */
-.A0FHG6C-L-U .A0FHG6C-L-Cb {display: none;}
+.LB0ILCD-L-U .LB0ILCD-L-Cb {display: none;}
 
 /* Reduce bottom padding of new replies */
-.A0FHG6C-L-U .A0FHG6C-L-Q .A0FHG6C-L-d {margin: 0 41px 10px 0;}
+.LB0ILCD-L-U .LB0ILCD-L-Q .LB0ILCD-L-d {margin: 0 41px 10px 0;}
 
 /* Reduce top padding of new replies */
-.A0FHG6C-L-Q {padding: 8px 24px;}
+.LB0ILCD-L-Q {padding: 8px 24px;}
 
 
 /* --------------------------- */
@@ -239,6 +248,6 @@ div.A0FHG6C-W-k > div:nth-child(2) {color:blue !important;width: 50px;}
 /* --------------------------- */
 
 /* Wrap long contributor names */
-.A0FHG6C-D-m .A0FHG6C-D-p {
+.LB0ILCD-D-m .LB0ILCD-D-p {
   white-space: normal;
 }
