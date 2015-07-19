@@ -112,6 +112,8 @@
     display:none;
  }
 
+ 
+ 
 /* Style the Views and Posts Differently */
 div.LB0ILCD-W-k > div:first-child {color:red !important;width: 32px;}
 div.LB0ILCD-W-k > div:nth-child(2) {color:blue !important;width: 50px;}
@@ -217,9 +219,6 @@ div.LB0ILCD-W-k > div:nth-child(2) {color:blue !important;width: 50px;}
 
 /* Left icon div placeholder */
 .LB0ILCD-M-e {border-radius: 18px;height: 18px;width: 18px;}
-
-/* Remove strange blank div in the original article */
-.LB0ILCD-L-bb .LB0ILCD-L-D, .LB0ILCD-L-h .LB0ILCD-L-D {display: none;}
 
 /* Remove the left indent for replies */
 .LB0ILCD-L-U .LB0ILCD-L-S {padding-left: 0px;}

@@ -119,6 +119,9 @@ Version 1.051
 Version 1.06
 - Fixes recent Hadfield update to class names.
 
+Version 1.061
+- Fixes issues with inline images not displaying
+
 Known Issues
 
 See the Issues Log https://github.com/darkufo/hadfieldnew/issues
