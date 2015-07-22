@@ -122,6 +122,9 @@ Version 1.06
 Version 1.061
 - Fixes issues with inline images not displaying
 
+Version 1.07
+- Quick fix to address major hadfield changes. 
+
 Known Issues
 
 See the Issues Log https://github.com/darkufo/hadfieldnew/issues

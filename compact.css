@@ -1,47 +1,33 @@
 /* Remove Sliders and Hero Banners */
-.LB0ILCD-T-O {display:none;}
-
-/* Reduced Topics and Discussion Categories top margin */
-.LB0ILCD-T-x {margin: 4px 0 2px 22px !important;}
+.LB0ILCD-T-S {display:none;}
 
 /* Hide Pinned Topics */
-.LB0ILCD-T-w {display: none;}
-
-/* Row Margin Reduction */
-.LB0ILCD-T-i .LB0ILCD-T-L {padding: 0px 0 0;}
-
-/* Right Side Icon Position Fix */
-.LB0ILCD-W-h {margin-top: -2px !important; width:32px;}
-
-/* Hide Best Answer Icon */
-.LB0ILCD-W-b {display: none;}
-
-/* Post and View Count Font and Color Change */
-.LB0ILCD-T-K>:first-child {max-width: 32px;min-width: 32px;}
-.LB0ILCD-T-y {padding-left: 6px;padding-right: 12px; padding-top: 9px;}
-
-/* Increase Avatar Size and Alignment */
-.LB0ILCD-T-M .LB0ILCD-T-y .LB0ILCD-M-b img {height: 24px;width: 24px;margin: -6px -11px !important;}
-
-
-
-
-
-/* Escalated/Dupicate/Moved in and Locked Item Position fix and opacity removal*/
-.LB0ILCD-lb-b {opacity: 1;margin-bottom: -7px;width:14px;}
-.LB0ILCD-T-y .LB0ILCD-M-b {opacity: 1;}
+.LB0ILCD-T-z {display: none;}
 
 /* Remove Switch Back Nag Bar */
 .LB0ILCD-o-a {display: none;}
 
+/* Hide Best Answer Icon */
+.LB0ILCD-W-b {display: none;}
+
+/* Reduced Topics and Discussion Categories top margin */
+.LB0ILCD-T-B {margin: 4px 0 2px 22px !important;}
+
+/* Right Side Icon Position Fix */
+.LB0ILCD-W-h {margin-top: -2px !important; width:32px;}
+
+/* Increase Avatar Size and Alignment */
+.LB0ILCD-T-i .LB0ILCD-T-P .LB0ILCD-M-b img {height: 24px;width: 24px;margin: -6px -11px !important;}
+
 /* Square Avatars */
 .LB0ILCD-M-b>a>img {border-radius: 0px;}
 
-/* Reduced Fixed Header Margins */
-.LB0ILCD-d-a {height: 26px;}
-
 /* Fix Width of title and stop wrapping */
-.LB0ILCD-T-H {display: block !important;width: 680px !important;white-space: nowrap !important;overflow: hidden !important;font-size:11px;}
+.LB0ILCD-T-L {display: block !important;width: 580px !important;white-space: nowrap !important;overflow: hidden !important;font-size:11px;}
+
+/* Escalated/Dupicate/Moved in and Locked Item Position fix and opacity removal*/
+.LB0ILCD-lb-b {opacity: 1;margin-bottom: -7px;width:14px;}
+.LB0ILCD-T-y .LB0ILCD-M-b {opacity: 1;}
 
 /* Float Author and Time to the right */
 .LB0ILCD-W-l {display: block !important;float: right !important;width: 400px !important;margin-top: -29px;}
@@ -49,28 +35,14 @@
 /* Fix the Author Width */
 .LB0ILCD-W-c {width: 82px;font-size: 10px;}
 
-/* Hide Empty Divs */
-.LB0ILCD-T-G {margin-left: -76px;  margin-top: 2px;  position: relative; top: -22px;}
-.LB0ILCD-T-E {display: none !important;}
+/* Hide the new Updated by Column */
+.LB0ILCD-W-j div:nth-child(2){
+    display:none;
+ }
 
-/* Hide Avatar */
-.LB0ILCD-T-i .LB0ILCD-T-L .LB0ILCD-M-b {display: none;}
-
-/* Set Row Width */
-.LB0ILCD-T-J {min-height: 20px !important;padding-top: 1px !important;height: 20px;}
-
-/* Fix Checkbox position */
-.LB0ILCD-U-c {margin-left: 0px !important;margin-top: -8px !important;display: block !important;}
-
-/* Tidy Alignment */
-.LB0ILCD-T-K {margin-right: 0px;margin-left: -26px;padding-top: 3px;}
-
-/* Tidy Right Aligned Icons */
-.LB0ILCD-M-a {width: 16px !important; padding-top: 0px !important;}
-
-
-/* Fix Position of 2nd line items */
+ /* Fix Position of 2nd line items */
 .LB0ILCD-W-j {margin-top: 11px !important;font-size: 10px;width: 300px;padding-right: 20px;color: black;}
+
 
 /* Best Answer CSS Code */
 .LB0ILCD-W-a {
@@ -92,6 +64,34 @@
   height: 13px;
 }
 
+/* Left align the Post Count Column where possible */
+.LB0ILCD-W-j, .LB0ILCD-W-j>:not(:last-child), .LB0ILCD-W-k>:not(:last-child) {margin-right: 0px;text-align: left;}
+ 
+ /* Style the Views and Posts Differently */
+div.LB0ILCD-W-k > div:first-child {color:red !important;width: 32px; font-size:12px;}
+div.LB0ILCD-W-k > div:nth-child(2) {color:blue !important;width: 50px; font-size:12px;}
+
+/* Row Margin Reduction */
+.LB0ILCD-T-i .LB0ILCD-T-L {padding: 0px 0 0;}
+
+
+/* Set Row Width */
+.LB0ILCD-T-N {min-height: 20px !important;padding-top: 1px !important;height: 20px;}
+
+/* Post and View Count Font and Color Change */
+.LB0ILCD-W-k>:first-child {max-width: 32px;min-width: 32px;}
+.LB0ILCD-W-k {padding-left: 6px;padding-right: 12px; padding-top: 9px;margin-top: -20px;}
+
+/* Hide Avatar */
+.LB0ILCD-T-i .LB0ILCD-T-P .LB0ILCD-M-b {display: none;}
+
+
+/* Fix Checkbox position */
+.LB0ILCD-U-c {margin-left: 0px !important;margin-top: -6px !important;display: block !important;}
+
+/* Sets the position of the Escalated-Locked etc icons outside the table */
+.LB0ILCD-T-K {position: relative;left: -122px;top: -18px;}
+
 /* Improve Margin for rows with no icons or answered */
 .LB0ILCD-W-k {
   font-size: 11px !important;
@@ -103,87 +103,6 @@
   left: 172px;
   display: -webkit-box;
 }
-
-/* Left align the Post Count Column where possible */
-.LB0ILCD-W-j, .LB0ILCD-W-j>:not(:last-child), .LB0ILCD-W-k>:not(:last-child) {margin-right: 0px;text-align: left;}
-
-/* Hide the new Updated by Column */
-.LB0ILCD-W-j div:nth-child(2){
-    display:none;
- }
-
- 
- 
-/* Style the Views and Posts Differently */
-div.LB0ILCD-W-k > div:first-child {color:red !important;width: 32px;}
-div.LB0ILCD-W-k > div:nth-child(2) {color:blue !important;width: 50px;}
-
-/* Fix to make sure Starred Discussion display */
-.LB0ILCD-T-K .LB0ILCD-T-j .LB0ILCD-V-a {display: inline-block;float: left;position: relative;left: 0px;margin-left: -100px;}
-
-/* Hides the forum column on Starred Discussion until a fix can be found */
-.LB0ILCD-W-i {display: none;}
-
-/* Sets the min-height of the rows container to force the scroll bars and trigger the auto-loading */
-.LB0ILCD-T-L {min-height: 1000px;}
-
-/* Hide avatars in wide list view SD */
-/* Submitted by Selden */
-.LB0ILCD-T-y .LB0ILCD-M-b {
-    opacity: 1;
-    display: none;
-}
-/* Hide the 1 Expert Reply Text in Wide List mode */
-.LB0ILCD-W-e {
-  display: none;
-}
-
-/* Fix the Top Search Bar in place */
-.gb_Vc {
-  color: #000;
-  left: 0;
-  min-width: 1177px;
-  position: absolute;
-  top: 0;
-  -webkit-user-select: none;
-  width: 100%;
-  position: fixed !important;
-}
-
-/* Make Sure the Action Bar remains visible and on top */
-.LB0ILCD-c-a {
-  position: fixed;
-  z-index: 9;
-  margin-top: -60px;
-}
-
-/* Off set the Post Listing so now that Search and Action bar are fixed */
-.LB0ILCD-c-s {
-  margin-top: 60px;
-}
-
-/* Remove comment to hide the Forum Name and Logo */
-.LB0ILCD-X-a .LB0ILCD-A-a {
- /* display: none; */
-}
-
-/* --------------------------------------- */
-/* Reveal the post snippet on hover        */
-/* Thanks to backy0175 for the inspiration */
-/* --------------------------------------- */
-.LB0ILCD-T-H:hover ~ .LB0ILCD-T-E {
-    background-color: #4285f4 ;
-    color: white;
-    display: block ;
-    position: absolute ;
-    top: 1em;
-    left: 20em;
-    width: 400px;
-    padding: 20px;
-    z-index: 999;
-    font-size: 16px;
-}
-
 
 
 
