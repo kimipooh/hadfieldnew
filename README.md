@@ -125,6 +125,9 @@ Version 1.061
 Version 1.07
 - Quick fix to address major hadfield changes. 
 
+Version 1.071
+- Fixes a few more issues from the recent hadfield update.
+
 Known Issues
 
 See the Issues Log https://github.com/darkufo/hadfieldnew/issues

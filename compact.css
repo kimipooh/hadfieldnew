@@ -14,7 +14,7 @@
 .LB0ILCD-T-B {margin: 4px 0 2px 22px !important;}
 
 /* Right Side Icon Position Fix */
-.LB0ILCD-W-h {margin-top: -2px !important; width:32px;}
+.LB0ILCD-W-h {margin-top: -6px !important; width:32px;}
 
 /* Increase Avatar Size and Alignment */
 .LB0ILCD-T-i .LB0ILCD-T-P .LB0ILCD-M-b img {height: 24px;width: 24px;margin: -6px -11px !important;}
@@ -23,7 +23,8 @@
 .LB0ILCD-M-b>a>img {border-radius: 0px;}
 
 /* Fix Width of title and stop wrapping */
-.LB0ILCD-T-L {display: block !important;width: 580px !important;white-space: nowrap !important;overflow: hidden !important;font-size:11px;}
+.LB0ILCD-T-L {display: block !important;width: 580px !important;white-space: nowrap !important;overflow: hidden !important;font-size:11px;margin-left: -26px;
+    margin-top: 4px;}
 
 /* Escalated/Dupicate/Moved in and Locked Item Position fix and opacity removal*/
 .LB0ILCD-lb-b {opacity: 1;margin-bottom: -7px;width:14px;}
@@ -36,9 +37,7 @@
 .LB0ILCD-W-c {width: 82px;font-size: 10px;}
 
 /* Hide the new Updated by Column */
-.LB0ILCD-W-j div:nth-child(2){
-    display:none;
- }
+.LB0ILCD-W-j div:nth-child(2){display:none;}
 
  /* Fix Position of 2nd line items */
 .LB0ILCD-W-j {margin-top: 11px !important;font-size: 10px;width: 300px;padding-right: 20px;color: black;}
@@ -53,7 +52,7 @@
   font-size: 12px !important;
   font-weight: normal !important;
   margin: 0px 0 !important;
-  margin-top: -4px !important;
+  margin-top: -5px !important;
   margin-right: 0px !important;
   padding: 3px 0px 3px 4px !important;
   white-space: nowrap !important;
@@ -67,24 +66,22 @@
 /* Left align the Post Count Column where possible */
 .LB0ILCD-W-j, .LB0ILCD-W-j>:not(:last-child), .LB0ILCD-W-k>:not(:last-child) {margin-right: 0px;text-align: left;}
  
- /* Style the Views and Posts Differently */
+ /* Style the Views and Posts Differently and improve the margin alignment when no icons present */
 div.LB0ILCD-W-k > div:first-child {color:red !important;width: 32px; font-size:12px;}
 div.LB0ILCD-W-k > div:nth-child(2) {color:blue !important;width: 50px; font-size:12px;}
+.LB0ILCD-W-k>:first-child {max-width: 32px;min-width: 32px;}
+.LB0ILCD-W-k {padding-left: 6px;padding-right: 12px; padding-top: 9px;margin-top: -20px;}
+.LB0ILCD-W-k {font-size: 11px !important;margin-top: -12px !important;margin-right: 6px !important;color: black !important;width: 385px !important;position: relative !important;  left: 172px;display: -webkit-box;}
+
 
 /* Row Margin Reduction */
 .LB0ILCD-T-i .LB0ILCD-T-L {padding: 0px 0 0;}
 
-
-/* Set Row Width */
+/* Set Row Height */
 .LB0ILCD-T-N {min-height: 20px !important;padding-top: 1px !important;height: 20px;}
 
-/* Post and View Count Font and Color Change */
-.LB0ILCD-W-k>:first-child {max-width: 32px;min-width: 32px;}
-.LB0ILCD-W-k {padding-left: 6px;padding-right: 12px; padding-top: 9px;margin-top: -20px;}
-
-/* Hide Avatar */
+/* Hide User Avatar */
 .LB0ILCD-T-i .LB0ILCD-T-P .LB0ILCD-M-b {display: none;}
-
 
 /* Fix Checkbox position */
 .LB0ILCD-U-c {margin-left: 0px !important;margin-top: -6px !important;display: block !important;}
@@ -92,18 +89,17 @@ div.LB0ILCD-W-k > div:nth-child(2) {color:blue !important;width: 50px; font-size
 /* Sets the position of the Escalated-Locked etc icons outside the table */
 .LB0ILCD-T-K {position: relative;left: -122px;top: -18px;}
 
-/* Improve Margin for rows with no icons or answered */
-.LB0ILCD-W-k {
-  font-size: 11px !important;
-  margin-top: -12px !important;
-  margin-right: 6px !important;
-  color: black !important;
-  width: 385px !important;
-  position: relative !important;
-  left: 172px;
-  display: -webkit-box;
-}
 
+/* Fix to make sure Starred Discussion display */
+.LB0ILCD-T-O .LB0ILCD-T-j .LB0ILCD-V-a {display: inline-block;float: left;position: relative;left: 0px;margin-left: -100px;}
+
+
+
+/* --------------------------------------- */
+/* Reveal the post snippet on hover        */
+/* Thanks to backy0175 for the inspiration */
+/* --------------------------------------- */
+.LB0ILCD-T-L:hover ~ .LB0ILCD-T-I {background-color: #4285f4;color: white;display: block;position: absolute;top: 1em;left: 20em; width: 400px;padding: 20px;    z-index: 999;font-size: 16px;}
 
 
 /* ----------------- */
