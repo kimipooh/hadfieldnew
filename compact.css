@@ -49,7 +49,6 @@ div.LB0ILCD-W-k > div:nth-child(2) {color:blue !important;width: 50px; font-size
 .LB0ILCD-W-k {padding-left: 6px;padding-right: 12px; padding-top: 9px;margin-top: -20px;}
 .LB0ILCD-W-k {font-size: 11px !important;margin-top: -12px !important;margin-right: 6px !important;color: black !important;width: 385px !important;position: relative !important;  left: 172px;display: -webkit-box;}
 
-
 /* Row Margin Reduction */
 .LB0ILCD-T-i .LB0ILCD-T-L {padding: 0px 0 0;}
 
@@ -70,16 +69,18 @@ div.LB0ILCD-W-k > div:nth-child(2) {color:blue !important;width: 50px; font-size
 
 
 
-/* --------------------------------------- */
-/* Reveal the post snippet on hover        */
-/* Thanks to backy0175 for the inspiration */
-/* --------------------------------------- */
+/* ------------------------------------------------------------------ */
+/* Reveal the post snippet on hover                                   */
+/* First Element is the Title Text, and the 2nd is the Snippet        */
+/* Thanks to backy0175 for the inspiration                            */
+/* ------------------------------------------------------------------ */
 .LB0ILCD-T-L:hover ~ .LB0ILCD-T-I {background-color: #4285f4;color: white;display: block;position: absolute;top: 1em;left: 20em; width: 400px;padding: 20px;    z-index: 999;font-size: 16px;}
 
 
-/* ----------------- */
-/* Post Compact Code */
-/* ----------------- */
+/* ------------------------------------------- */
+/* Post Compact Code                           */
+/* The code below is for the actual post pages */
+/* ------------------------------------------- */
 
 /* Author Bold and Blue */
 .LB0ILCD-L-c {color: blue;font-weight: bold;}
