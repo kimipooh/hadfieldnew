@@ -128,6 +128,11 @@ Version 1.07
 Version 1.071
 - Fixes a few more issues from the recent hadfield update.
 
+Version 1.08
+- Defaults to Display Pinned Topics
+- Hides Private Forum Hero Banner
+- Pinned Topics now compact as well
+
 Known Issues
 
 See the Issues Log https://github.com/darkufo/hadfieldnew/issues

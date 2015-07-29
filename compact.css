@@ -1,8 +1,20 @@
 /* Remove Sliders and Hero Banners */
 .LB0ILCD-T-S {display:none;}
 
-/* Hide Pinned Topics */
-.LB0ILCD-T-z {display: none;}
+/* Hide Pinned Topics (un-comment the line below to hide them) */
+/*.LB0ILCD-T-z {display: none;}*/
+
+/* If Pinned Topics are enabled (see above) this code compacts their display */
+/* Thanks to kimipooh for the code.*/
+div.LB0ILCD-T-y {min-height: 20px !important;padding-top: 1px !important;height: 20px;}
+.LB0ILCD-T-x { min-height: 20px; height: 20px; min-width: 20px; width: 20px; margin-right: 1em;}
+.LB0ILCD-T-I { font-size: 11px; }
+h2.LB0ILCD-T-B { display: none !important;} /* Pinned Text Bar /*
+
+/* Hide Private Discussion Banner */
+.LB0ILCD-T-A {
+    display: none;
+}
 
 /* Remove Switch Back Nag Bar */
 .LB0ILCD-o-a {display: none;}
