@@ -1,18 +1,18 @@
 /* Remove Sliders and Hero Banners */
-.LB0ILCD-T-S {display:none;}
+.LB0ILCD-T-U {display:none;}
 
 /* Hide Pinned Topics (un-comment the line below to hide them) */
-/*.LB0ILCD-T-z {display: none;}*/
+/*.LB0ILCD-T-B {display: none;}*/
 
 /* If Pinned Topics are enabled (see above) this code compacts their display */
 /* Thanks to kimipooh for the code.*/
-div.LB0ILCD-T-y {min-height: 20px !important;padding-top: 1px !important;height: 20px;}
-.LB0ILCD-T-x { min-height: 20px; height: 20px; min-width: 20px; width: 20px; margin-right: 1em;}
-.LB0ILCD-T-I { font-size: 11px; }
-h2.LB0ILCD-T-B { display: none !important;} /* Pinned Text Bar /*
+div.LB0ILCD-T-A {min-height: 20px !important;padding-top: 1px !important;height: 20px;}
+.LB0ILCD-T-z { min-height: 20px; height: 20px; min-width: 20px; width: 20px; margin-right: 1em;}
+.LB0ILCD-T-K { font-size: 11px; }
+h2.LB0ILCD-T-D { display: none !important;} /* Pinned Text Bar /*
 
 /* Hide Private Discussion Banner */
-.LB0ILCD-T-A {
+.LB0ILCD-T-C {
     display: none;
 }
 
@@ -23,13 +23,13 @@ h2.LB0ILCD-T-B { display: none !important;} /* Pinned Text Bar /*
 .LB0ILCD-W-b {display: none;}
 
 /* Reduced All Topics and Discussion Categories top margin */
-.LB0ILCD-T-B {margin: 4px 0 2px 22px !important;}
+.LB0ILCD-T-D {margin: 4px 0 2px 22px !important;}
 
 /* Right Side Icons Position Fix */
 .LB0ILCD-W-h {margin-top: -6px !important; width:32px;}
 
 /* Fix Width of title and stop wrapping */
-.LB0ILCD-T-L {display: block !important;width: 580px !important;white-space: nowrap !important;overflow: hidden !important;font-size:11px;margin-left: -26px;
+.LB0ILCD-T-N {display: block !important;width: 580px !important;white-space: nowrap !important;overflow: hidden !important;font-size:11px;margin-left: -26px;
     margin-top: 4px;}
 
 /* Escalated/Dupicate/Moved in and Locked Item Position fix and opacity removal*/
@@ -65,19 +65,19 @@ div.LB0ILCD-W-k > div:nth-child(2) {color:blue !important;width: 50px; font-size
 .LB0ILCD-T-i .LB0ILCD-T-L {padding: 0px 0 0;}
 
 /* Set Row Height */
-.LB0ILCD-T-N {min-height: 20px !important;padding-top: 1px !important;height: 20px;}
+.LB0ILCD-T-P {min-height: 20px !important;padding-top: 1px !important;height: 20px;}
 
 /* Hide User Avatar */
-.LB0ILCD-T-i .LB0ILCD-T-P .LB0ILCD-M-b {display: none;}
+.LB0ILCD-T-k .LB0ILCD-T-R .LB0ILCD-M-b {display: none;}
 
 /* Fix Checkbox position */
 .LB0ILCD-U-c {margin-left: 0px !important;margin-top: -6px !important;display: block !important;}
 
 /* Sets the position of the Escalated-Locked etc icons outside the table */
-.LB0ILCD-T-K {position: relative;left: -122px;top: -18px;}
+.LB0ILCD-T-M {position: relative;left: -122px;top: -18px;}
 
 /* Fix to make sure Starred Discussion display */
-.LB0ILCD-T-O .LB0ILCD-T-j .LB0ILCD-V-a {display: inline-block;float: left;position: relative;left: 0px;margin-left: -100px;}
+.LB0ILCD-T-Q .LB0ILCD-T-l .LB0ILCD-V-c {display: inline-block;float: left;position: relative;left: 0px;margin-left: -100px;}
 
 
 
@@ -86,7 +86,7 @@ div.LB0ILCD-W-k > div:nth-child(2) {color:blue !important;width: 50px; font-size
 /* First Element is the Title Text, and the 2nd is the Snippet        */
 /* Thanks to backy0175 for the inspiration                            */
 /* ------------------------------------------------------------------ */
-.LB0ILCD-T-L:hover ~ .LB0ILCD-T-I {background-color: #4285f4;color: white;display: block;position: absolute;top: 1em;left: 20em; width: 400px;padding: 20px;    z-index: 999;font-size: 16px;}
+.LB0ILCD-T-N:hover ~ .LB0ILCD-T-K {background-color: #4285f4;color: white;display: block;position: absolute;top: 1em;left: 20em; width: 400px;padding: 20px;    z-index: 999;font-size: 16px;}
 
 
 /* ------------------------------------------- */

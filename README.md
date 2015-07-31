@@ -133,6 +133,9 @@ Version 1.08
 - Hides Private Forum Hero Banner
 - Pinned Topics now compact as well
 
+Version 1.09
+- Updates due to hadfield changes
+
 Known Issues
 
 See the Issues Log https://github.com/darkufo/hadfieldnew/issues
