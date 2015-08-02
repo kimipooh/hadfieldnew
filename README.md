@@ -136,6 +136,9 @@ Version 1.08
 Version 1.09
 - Updates due to hadfield changes
 
+Version 1.10
+- Made the move topics popup box compact
+
 Known Issues
 
 See the Issues Log https://github.com/darkufo/hadfieldnew/issues
