@@ -68,7 +68,7 @@ div.LB0ILCD-W-k > div:nth-child(2) {color:blue !important;width: 50px; font-size
 .LB0ILCD-T-P {min-height: 20px !important;padding-top: 1px !important;height: 20px;}
 
 /* Hide User Avatar */
-.LB0ILCD-T-k .LB0ILCD-T-R .LB0ILCD-M-b {display: none;}
+.LB0ILCD-T-c.LB0ILCD-F-b {display: none;}
 
 /* Fix Checkbox position */
 .LB0ILCD-U-c {margin-left: 0px !important;margin-top: -6px !important;display: block !important;}
@@ -90,6 +90,15 @@ span.gwt-InlineLabel {font-size: 11px;}
 
 /* Move Forum Group Button Spacing */
 .LB0ILCD-f-d {margin: 12px 0px 12px;}
+
+/* Move Forum Title Bar */
+.LB0ILCD-b-O .LB0ILCD-f-j {padding: 0px 16px 0;}
+
+/* Move Forum Remove Help Instructions */
+span.LB0ILCD-f-h {display: none;}
+
+/* Move Forum Remove Separator Bar */
+.LB0ILCD-b-eb {display: none;}
 
 
 /* ------------------------------------------------------------------ */

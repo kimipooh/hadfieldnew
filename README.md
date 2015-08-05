@@ -139,6 +139,9 @@ Version 1.09
 Version 1.10
 - Made the move topics popup box compact
 
+Version 1.11
+- Update to re-hide user avatar
+
 Known Issues
 
 See the Issues Log https://github.com/darkufo/hadfieldnew/issues
