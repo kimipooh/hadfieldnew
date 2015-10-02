@@ -1,104 +1,104 @@
 /* Remove Sliders and Hero Banners */
-.LB0ILCD-T-U {display:none;}
+.NUXPAI-T-U {display:none;}
 
 /* Hide Pinned Topics (un-comment the line below to hide them) */
-/*.LB0ILCD-T-B {display: none;}*/
+/*.NUXPAI-T-B {display: none;}*/
 
 /* If Pinned Topics are enabled (see above) this code compacts their display */
 /* Thanks to kimipooh for the code.*/
-div.LB0ILCD-T-A {min-height: 20px !important;padding-top: 1px !important;height: 20px;}
-.LB0ILCD-T-z { min-height: 20px; height: 20px; min-width: 20px; width: 20px; margin-right: 1em;}
-.LB0ILCD-T-K { font-size: 11px; }
-h2.LB0ILCD-T-D { display: none !important;} /* Pinned Text Bar /*
+div.NUXPAI-T-A {min-height: 20px !important;padding-top: 1px !important;height: 20px;}
+.NUXPAI-T-z { min-height: 20px; height: 20px; min-width: 20px; width: 20px; margin-right: 1em;}
+.NUXPAI-T-K { font-size: 11px; }
+h2.NUXPAI-T-D { display: none !important;} /* Pinned Text Bar /*
 
 /* Hide Private Discussion Banner */
-.LB0ILCD-T-C {
+.NUXPAI-T-C {
     display: none;
 }
 
 /* Remove Switch Back Nag Bar */
-.LB0ILCD-o-a {display: none;}
+.NUXPAI-o-a {display: none;}
 
 /* Hide Best Answer Icon */
-.LB0ILCD-W-b {display: none;}
+.NUXPAI-W-b {display: none;}
 
 /* Reduced All Topics and Discussion Categories top margin */
-.LB0ILCD-T-D {margin: -40px 0 2px 22px !important;}
+.NUXPAI-T-D {margin: -40px 0 2px 22px !important;}
 
 /* Right Side Icons Position Fix */
-.LB0ILCD-W-h {margin-top: -6px !important; width:32px;}
+.NUXPAI-W-h {margin-top: -6px !important; width:32px;}
 
 /* Fix Width of title and stop wrapping */
-.LB0ILCD-T-N {display: block !important;width: 580px !important;white-space: nowrap !important;overflow: hidden !important;font-size:11px;margin-left: -26px;
+.NUXPAI-T-N {display: block !important;width: 580px !important;white-space: nowrap !important;overflow: hidden !important;font-size:11px;margin-left: -26px;
     margin-top: 4px;}
 
 /* Escalated/Dupicate/Moved in and Locked Item Position fix and opacity removal*/
-.LB0ILCD-lb-b {opacity: 1;margin-bottom: -7px;width:14px;}
-.LB0ILCD-T-y .LB0ILCD-M-b {opacity: 1;}
+.NUXPAI-lb-b {opacity: 1;margin-bottom: -7px;width:14px;}
+.NUXPAI-T-y .NUXPAI-M-b {opacity: 1;}
 
 /* Float Author and Time to the right */
-.LB0ILCD-W-l {display: block !important;float: right !important;width: 400px !important;margin-top: -29px;}
+.NUXPAI-W-l {display: block !important;float: right !important;width: 400px !important;margin-top: -29px;}
 
 /* Fix the Author Width */
-.LB0ILCD-W-c {width: 136px;font-size: 10px;}
+.NUXPAI-W-c {width: 136px;font-size: 10px;}
 
 /* Hide the new Updated by Column */
-.LB0ILCD-W-j div:nth-child(2){display:none;}
+.NUXPAI-W-j div:nth-child(2){display:none;}
 
  /* Fix Position of 2nd line items */
-.LB0ILCD-W-j {margin-top: 11px !important;font-size: 10px;width: 300px;padding-right: 20px;color: black;}
+.NUXPAI-W-j {margin-top: 11px !important;font-size: 10px;width: 300px;padding-right: 20px;color: black;}
 
 /* Best Answer CSS Code */
-.LB0ILCD-W-a {background-color: #5d80ef !important;border-radius: 0px !important;color: white !important;display: inline-block !important;font-size: 12px !important;  font-weight: normal !important; margin: 0px 0 !important;margin-top: -5px !important;margin-right: 0px !important;padding: 3px 0px 3px 4px !important;white-space: nowrap !important;overflow: hidden !important;width: 60px !important;position: relative !important;left: -24px !important;height: 13px;}
+.NUXPAI-W-a {background-color: #5d80ef !important;border-radius: 0px !important;color: white !important;display: inline-block !important;font-size: 12px !important;  font-weight: normal !important; margin: 0px 0 !important;margin-top: -5px !important;margin-right: 0px !important;padding: 3px 0px 3px 4px !important;white-space: nowrap !important;overflow: hidden !important;width: 60px !important;position: relative !important;left: -24px !important;height: 13px;}
 
 /* Left align the Post Count Column where possible */
-.LB0ILCD-W-j, .LB0ILCD-W-j>:not(:last-child), .LB0ILCD-W-k>:not(:last-child) {margin-right: 0px;text-align: left;}
+.NUXPAI-W-j, .NUXPAI-W-j>:not(:last-child), .NUXPAI-W-k>:not(:last-child) {margin-right: 0px;text-align: left;}
  
  /* Style the Views and Posts Differently and improve the margin alignment when no icons present */
-div.LB0ILCD-W-k > div:first-child {color:red !important;width: 32px; font-size:12px;}
-div.LB0ILCD-W-k > div:nth-child(2) {color:blue !important;width: 50px; font-size:12px;text-align: right;}
-.LB0ILCD-W-k>:first-child {max-width: 32px;min-width: 32px;}
-.LB0ILCD-W-k {padding-left: 6px;padding-right: 12px; padding-top: 9px;margin-top: -20px;}
-.LB0ILCD-W-k {font-size: 11px !important;margin-top: -12px !important;margin-right: 6px !important;color: black !important;width: 385px !important;position: relative !important;  left: 172px;display: -webkit-box;}
+div.NUXPAI-W-k > div:first-child {color:red !important;width: 32px; font-size:12px;}
+div.NUXPAI-W-k > div:nth-child(2) {color:blue !important;width: 50px; font-size:12px;text-align: right;}
+.NUXPAI-W-k>:first-child {max-width: 32px;min-width: 32px;}
+.NUXPAI-W-k {padding-left: 6px;padding-right: 12px; padding-top: 9px;margin-top: -20px;}
+.NUXPAI-W-k {font-size: 11px !important;margin-top: -12px !important;margin-right: 6px !important;color: black !important;width: 385px !important;position: relative !important;  left: 172px;display: -webkit-box;}
 
 /* Row Margin Reduction */
-.LB0ILCD-T-i .LB0ILCD-T-L {padding: 0px 0 0;}
+.NUXPAI-T-i .NUXPAI-T-L {padding: 0px 0 0;}
 
 /* Set Row Height */
-.LB0ILCD-T-P {min-height: 20px !important;padding-top: 1px !important;height: 20px;}
+.NUXPAI-T-P {min-height: 20px !important;padding-top: 1px !important;height: 20px;}
 
 /* Hide User Avatar */
-.LB0ILCD-T-c.LB0ILCD-F-b {display: none;}
+.NUXPAI-T-c.NUXPAI-F-b {display: none;}
 
 /* Fix Checkbox position */
-.LB0ILCD-U-c {margin-left: 0px !important;margin-top: -6px !important;display: block !important;}
+.NUXPAI-U-c {margin-left: 0px !important;margin-top: -6px !important;display: block !important;}
 
 /* Sets the position of the Escalated-Locked etc icons outside the table */
-.LB0ILCD-T-M {position: relative;left: -122px;top: -18px;}
+.NUXPAI-T-M {position: relative;left: -122px;top: -18px;}
 
 /* Fix to make sure Starred Discussion display */
-.LB0ILCD-T-Q .LB0ILCD-T-l .LB0ILCD-V-c {display: inline-block;float: left;position: relative;left: 0px;margin-left: -100px;}
+.NUXPAI-T-Q .NUXPAI-T-l .NUXPAI-V-c {display: inline-block;float: left;position: relative;left: 0px;margin-left: -100px;}
 
 /* Move Forum Group Font */
 span.gwt-InlineLabel {font-size: 11px;}
 
 /* Move Forum Group Spacing */
-.LB0ILCD-vb-e li>div {padding: 0px 0 0px 0px;}
+.NUXPAI-vb-e li>div {padding: 0px 0 0px 0px;}
 
 /* Move Forum Group Line Height Spacing */
-.LB0ILCD-vb-e li {line-height: 14px;}
+.NUXPAI-vb-e li {line-height: 14px;}
 
 /* Move Forum Group Button Spacing */
-.LB0ILCD-f-d {margin: 12px 0px 12px;}
+.NUXPAI-f-d {margin: 12px 0px 12px;}
 
 /* Move Forum Title Bar */
-.LB0ILCD-b-O .LB0ILCD-f-j {padding: 0px 16px 0;}
+.NUXPAI-b-O .NUXPAI-f-j {padding: 0px 16px 0;}
 
 /* Move Forum Remove Help Instructions */
-span.LB0ILCD-f-h {display: none;}
+span.NUXPAI-f-h {display: none;}
 
 /* Move Forum Remove Separator Bar */
-.LB0ILCD-b-eb {display: none;}
+.NUXPAI-b-eb {display: none;}
 
 
 /* ------------------------------------------------------------------ */
@@ -106,7 +106,7 @@ span.LB0ILCD-f-h {display: none;}
 /* First Element is the Title Text, and the 2nd is the Snippet        */
 /* Thanks to backy0175 for the inspiration                            */
 /* ------------------------------------------------------------------ */
-.LB0ILCD-T-N:hover ~ .LB0ILCD-T-K {background-color: #4285f4;color: white;display: block;position: absolute;top: 1em;left: 20em; width: 400px;padding: 20px;    z-index: 999;font-size: 16px;}
+.NUXPAI-T-N:hover ~ .NUXPAI-T-K {background-color: #4285f4;color: white;display: block;position: absolute;top: 1em;left: 20em; width: 400px;padding: 20px;    z-index: 999;font-size: 16px;}
 
 
 /* ------------------------------------------- */
@@ -115,52 +115,52 @@ span.LB0ILCD-f-h {display: none;}
 /* ------------------------------------------- */
 
 /* Author Bold and Blue */
-.LB0ILCD-L-c {color: blue;font-weight: bold;}
+.NUXPAI-L-c {color: blue;font-weight: bold;}
 
 /* Hide similar topics  */
-.LB0ILCD-L-lb {display: none;}
+.NUXPAI-L-lb {display: none;}
 
 /* Make the reply rows the same length as the original post */
-.LB0ILCD-L-U .LB0ILCD-K-c, .LB0ILCD-L-U .LB0ILCD-K-a {margin-right: 0px;margin-bottom: -25px;}
+.NUXPAI-L-U .NUXPAI-K-c, .NUXPAI-L-U .NUXPAI-K-a {margin-right: 0px;margin-bottom: -25px;}
 
 /* help reduce row spacing */
-.LB0ILCD-L-Q {margin-bottom: 0px;min-height: 0px !important;}
+.NUXPAI-L-Q {margin-bottom: 0px;min-height: 0px !important;}
 
 /* Remove empty replies header */
-.LB0ILCD-L-G {display: none;}
+.NUXPAI-L-G {display: none;}
 
 /* reduce row padding */
-.LB0ILCD-L-W .LB0ILCD-L-Q {min-height: 0;padding: 6px 24px;}
+.NUXPAI-L-W .NUXPAI-L-Q {min-height: 0;padding: 6px 24px;}
 
 /* top article bottom padding */
-.LB0ILCD-L-bb .LB0ILCD-L-V {padding-bottom: 0px;}
+.NUXPAI-L-bb .NUXPAI-L-V {padding-bottom: 0px;}
 
 /* Left icon sizes */
-.LB0ILCD-M-e>a>img {border-radius: 26px;width: 18px;}
+.NUXPAI-M-e>a>img {border-radius: 26px;width: 18px;}
 
 /* Left icon div placeholder */
-.LB0ILCD-M-e {border-radius: 18px;height: 18px;width: 18px;}
+.NUXPAI-M-e {border-radius: 18px;height: 18px;width: 18px;}
 
 /* Remove the left indent for replies */
-.LB0ILCD-L-U .LB0ILCD-L-S {padding-left: 0px;}
+.NUXPAI-L-U .NUXPAI-L-S {padding-left: 0px;}
 
 /* Move icons to outside the reply area */
-.LB0ILCD-L-yb {margin-left: -114px;}
+.NUXPAI-L-yb {margin-left: -114px;}
 
 /* Move Up and Down Navigator Widget outside the reply area */
-.LB0ILCD-P-b {margin-left: -160px;}
+.NUXPAI-P-b {margin-left: -160px;}
 
 /* Change Author name to Blue Bold for new replies */
-.LB0ILCD-L-Q .LB0ILCD-L-c h3>span {color: blue;font-weight: bold;}
+.NUXPAI-L-Q .NUXPAI-L-c h3>span {color: blue;font-weight: bold;}
 
 /* Hide the Plus 1 Button */
-.LB0ILCD-L-U .LB0ILCD-L-Cb {display: none;}
+.NUXPAI-L-U .NUXPAI-L-Cb {display: none;}
 
 /* Reduce bottom padding of new replies */
-.LB0ILCD-L-U .LB0ILCD-L-Q .LB0ILCD-L-d {margin: 0 41px 10px 0;}
+.NUXPAI-L-U .NUXPAI-L-Q .NUXPAI-L-d {margin: 0 41px 10px 0;}
 
 /* Reduce top padding of new replies */
-.LB0ILCD-L-Q {padding: 8px 24px;}
+.NUXPAI-L-Q {padding: 8px 24px;}
 
 
 /* --------------------------- */
@@ -168,6 +168,6 @@ span.LB0ILCD-f-h {display: none;}
 /* --------------------------- */
 
 /* Wrap long contributor names */
-.LB0ILCD-D-m .LB0ILCD-D-p {
+.NUXPAI-D-m .NUXPAI-D-p {
   white-space: normal;
 }
