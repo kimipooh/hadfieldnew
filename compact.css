@@ -33,7 +33,7 @@ h2.NUXPAI-T-D { display: none !important;} /* Pinned Text Bar /*
     margin-top: 4px;}
 
 /* Escalated/Dupicate/Moved in and Locked Item Position fix and opacity removal*/
-.NUXPAI-lb-b {opacity: 1;margin-bottom: -7px;width:14px;}
+.NUXPAI-nb-b {opacity: 1;margin-bottom: -7px;width:14px;}
 .NUXPAI-T-y .NUXPAI-M-b {opacity: 1;}
 
 /* Float Author and Time to the right */
