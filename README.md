@@ -142,6 +142,9 @@ Version 1.10
 Version 1.11
 - Update to re-hide user avatar
 
+Version 1.2
+- Fixes for the Feb 2016 changes. Major thanks to kimipooh for the majority of the fixes.
+
 Known Issues
 
 See the Issues Log https://github.com/darkufo/hadfieldnew/issues
