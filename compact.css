@@ -1,5 +1,5 @@
 /* Remove Sliders and Hero Banners */
-.NUXPAI-T-U {display:none;}
+.NUXPAI-T-V {display:none;}
 
 /* Hide Pinned Topics (un-comment the line below to hide them) */
 /*.NUXPAI-T-B {display: none;}*/
@@ -26,52 +26,52 @@ h2.NUXPAI-T-D { display: none !important;} /* Pinned Text Bar /*
 .NUXPAI-T-D {margin: -40px 0 2px 22px !important;}
 
 /* Right Side Icons Position Fix */
-.NUXPAI-W-h {margin-top: -6px !important; width:32px;}
+.NUXPAI-W-h {margin-top: 2px !important; width:32px;}
 
 /* Fix Width of title and stop wrapping */
-.NUXPAI-T-N {display: block !important;width: 580px !important;white-space: nowrap !important;overflow: hidden !important;font-size:11px;margin-left: -26px;
+.NUXPAI-T-O {display: block !important;width: 580px !important;white-space: nowrap !important;overflow: hidden !important;font-size:11px;margin-left: -26px;
     margin-top: 4px;}
 
 /* Escalated/Dupicate/Moved in and Locked Item Position fix and opacity removal*/
-.NUXPAI-nb-b {opacity: 1;margin-bottom: -7px;width:14px;}
+.NUXPAI-nb-b {opacity: 1;/*margin-bottom: -7px;*/ width:14px; position: relative; left:-80px; top:-17px;}
 .NUXPAI-T-y .NUXPAI-M-b {opacity: 1;}
 
 /* Float Author and Time to the right */
-.NUXPAI-W-l {display: block !important;float: right !important;width: 400px !important;margin-top: -29px;}
+.NUXPAI-W-m {display: block !important;float: right !important;width: 400px !important;margin-top: -34px;}
 
 /* Fix the Author Width */
 .NUXPAI-W-c {width: 136px;font-size: 10px;}
 
 /* Hide the new Updated by Column */
-.NUXPAI-W-j div:nth-child(2){display:none;}
+.NUXPAI-W-k div:nth-child(2) {display:none;}
 
  /* Fix Position of 2nd line items */
-.NUXPAI-W-j {margin-top: 11px !important;font-size: 10px;width: 300px;padding-right: 20px;color: black;}
+.NUXPAI-W-k {margin-top: 11px !important;font-size: 10px;width: 300px;padding-right: 20px;color: black;}
 
 /* Best Answer CSS Code */
-.NUXPAI-W-a {background-color: #5d80ef !important;border-radius: 0px !important;color: white !important;display: inline-block !important;font-size: 12px !important;  font-weight: normal !important; margin: 0px 0 !important;margin-top: -5px !important;margin-right: 0px !important;padding: 3px 0px 3px 4px !important;white-space: nowrap !important;overflow: hidden !important;width: 60px !important;position: relative !important;left: -24px !important;height: 13px;}
+.NUXPAI-W-a {background-color: #5d80ef !important;border-radius: 0px !important;color: white !important;display: inline-block !important;font-size: 12px !important;  font-weight: normal !important; margin: 0px 0 !important;margin-top: 0px !important;margin-right: 0px !important;padding: 3px 0px 3px 4px !important;white-space: nowrap !important;overflow: hidden !important;width: 60px !important;position: relative !important;left: -24px !important;height: 13px;}
 
 /* Left align the Post Count Column where possible */
-.NUXPAI-W-j, .NUXPAI-W-j>:not(:last-child), .NUXPAI-W-k>:not(:last-child) {margin-right: 0px;text-align: left;}
+.NUXPAI-W-k, .NUXPAI-W-k>:not(:last-child), .NUXPAI-W-l>:not(:last-child) {margin-right: 0px;text-align: left;}
  
  /* Style the Views and Posts Differently and improve the margin alignment when no icons present */
-div.NUXPAI-W-k > div:first-child {color:red !important;width: 32px; font-size:12px;}
-div.NUXPAI-W-k > div:nth-child(2) {color:blue !important;width: 50px; font-size:12px;text-align: right;}
-.NUXPAI-W-k>:first-child {max-width: 32px;min-width: 32px;}
-.NUXPAI-W-k {padding-left: 6px;padding-right: 12px; padding-top: 9px;margin-top: -20px;}
-.NUXPAI-W-k {font-size: 11px !important;margin-top: -12px !important;margin-right: 6px !important;color: black !important;width: 385px !important;position: relative !important;  left: 172px;display: -webkit-box;}
+div.NUXPAI-W-l > div:first-child {color:red !important;width: 32px; font-size:12px;}
+div.NUXPAI-W-l > div:nth-child(2) {color:blue !important;width: 50px; font-size:12px;text-align: right;}
+.NUXPAI-W-l>:first-child {max-width: 32px;min-width: 32px;}
+.NUXPAI-W-l {padding-left: 6px;padding-right: 12px; padding-top: 9px;margin-top: -22px;}
+.NUXPAI-W-l {font-size: 11px !important;margin-top: -12px !important;margin-right: 6px !important;color: black !important;width: 385px !important;position: relative !important;  left: 172px;display: -webkit-box;}
 
 /* Row Margin Reduction */
 .NUXPAI-T-i .NUXPAI-T-L {padding: 0px 0 0;}
 
 /* Set Row Height */
-.NUXPAI-T-P {min-height: 20px !important;padding-top: 1px !important;height: 20px;}
+.NUXPAI-T-Q {min-height: 20px !important;padding-top: 1px !important;height: 20px;}
 
 /* Hide User Avatar */
 .NUXPAI-T-c.NUXPAI-F-b {display: none;}
 
 /* Fix Checkbox position */
-.NUXPAI-U-c {margin-left: 0px !important;margin-top: -6px !important;display: block !important;}
+.NUXPAI-U-c {margin-left: -4px !important;margin-top: -10px !important;display: block !important;}
 
 /* Sets the position of the Escalated-Locked etc icons outside the table */
 .NUXPAI-T-M {position: relative;left: -122px;top: -18px;}
@@ -171,3 +171,4 @@ span.NUXPAI-f-h {display: none;}
 .NUXPAI-D-m .NUXPAI-D-p {
   white-space: normal;
 }
+
