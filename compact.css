@@ -6,13 +6,14 @@
 
 /* If Pinned Topics are enabled (see above) this code compacts their display */
 /* Thanks to kimipooh for the code.*/
-div.NUXPAI-T-A {min-height: 20px !important;padding-top: 1px !important;height: 20px;}
-.NUXPAI-T-z { min-height: 20px; height: 20px; min-width: 20px; width: 20px; margin-right: 1em;}
-.NUXPAI-T-K { font-size: 11px; }
-h2.NUXPAI-T-D { display: none !important;} /* Pinned Text Bar /*
+div.NUXPAI-T-B {min-height: 20px !important;padding-top: 1px !important;height: 20px;}
+.NUXPAI-T-A { margin-right: 10px; min-height: 20px !important; min-width: 20px !important; padding-top: 1px !important;height: 20px; width: 20px;}
+.NUXPAI-T-M { display: none; }
+.NUXPAI-T-L { font-size: 11px;}
+
 
 /* Hide Private Discussion Banner */
-.NUXPAI-T-C {
+.NUXPAI-T-D.NUXPAI-T-h {
     display: none;
 }
 
@@ -33,7 +34,8 @@ h2.NUXPAI-T-D { display: none !important;} /* Pinned Text Bar /*
     margin-top: 4px;}
 
 /* Escalated/Dupicate/Moved in and Locked Item Position fix and opacity removal*/
-.NUXPAI-nb-b {opacity: 1;/*margin-bottom: -7px;*/ width:14px; position: relative; left:-80px; top:-17px;}
+.NUXPAI-T-N {position: relative; left: -80px; top: -17px; }
+.NUXPAI-nb-b {opacity: 1;margin-bottom: 7px; width:14px;}
 .NUXPAI-T-y .NUXPAI-M-b {opacity: 1;}
 
 /* Float Author and Time to the right */
@@ -74,7 +76,8 @@ div.NUXPAI-W-l > div:nth-child(2) {color:blue !important;width: 50px; font-size:
 .NUXPAI-U-c {margin-left: -4px !important;margin-top: -10px !important;display: block !important;}
 
 /* Sets the position of the Escalated-Locked etc icons outside the table */
-.NUXPAI-T-M {position: relative;left: -122px;top: -18px;}
+/* This setting is moved to “Escalated/Dupicate/Moved in and Locked Item Position fix and opacity removal” */
+/*.NUXPAI-T-M {position: relative;left: -122px;top: -18px;}*/
 
 /* Fix to make sure Starred Discussion display */
 .NUXPAI-T-Q .NUXPAI-T-l .NUXPAI-V-c {display: inline-block;float: left;position: relative;left: 0px;margin-left: -100px;}
@@ -106,7 +109,7 @@ span.NUXPAI-f-h {display: none;}
 /* First Element is the Title Text, and the 2nd is the Snippet        */
 /* Thanks to backy0175 for the inspiration                            */
 /* ------------------------------------------------------------------ */
-.NUXPAI-T-N:hover ~ .NUXPAI-T-K {background-color: #4285f4;color: white;display: block;position: absolute;top: 1em;left: 20em; width: 400px;padding: 20px;    z-index: 999;font-size: 16px;}
+.NUXPAI-T-O:hover ~ .NUXPAI-T-L {background-color: #4285f4;color: white;display: block;position: absolute;top: 1em;left: 20em; width: 400px;padding: 20px;    z-index: 999;font-size: 16px;}
 
 
 /* ------------------------------------------- */
@@ -171,4 +174,5 @@ span.NUXPAI-f-h {display: none;}
 .NUXPAI-D-m .NUXPAI-D-p {
   white-space: normal;
 }
+
 
