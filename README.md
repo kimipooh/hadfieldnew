@@ -145,6 +145,12 @@ Version 1.11
 Version 1.2
 - Fixes for the Feb 2016 changes. Major thanks to kimipooh for the majority of the fixes.
 
+Version 1.3
+- 1. Hide banner for private category (Andy)  
+- 2. Fixed Pinned Topics
+- 3. Fixed Explanation message for  Escalated/Dupicate/Moved.
+- 4. Fixed hover message
+
 Known Issues
 
 See the Issues Log https://github.com/darkufo/hadfieldnew/issues
