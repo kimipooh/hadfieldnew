@@ -1,19 +1,19 @@
 /* Remove Sliders and Hero Banners */
-.NUXPAI-T-V {display:none;}
+.BOXPGHD-S-V {display:none;}
 
 /* Hide Pinned Topics (un-comment the line below to hide them) */
-/*.NUXPAI-T-B {display: none;}*/
+/*.BOXPGHD-S-B {display: none;}*/
 
 /* If Pinned Topics are enabled (see above) this code compacts their display */
 /* Thanks to kimipooh for the code.*/
-div.NUXPAI-T-B {min-height: 20px !important;padding-top: 1px !important;height: 20px;}
-.NUXPAI-T-A { margin-right: 10px; min-height: 20px !important; min-width: 20px !important; padding-top: 1px !important;height: 20px; width: 20px;}
-.NUXPAI-T-M { display: none; }
-.NUXPAI-T-L { font-size: 11px;}
+div.BOXPGHD-S-B {min-height: 20px !important;padding-top: 1px !important;height: 20px;}
+.BOXPGHD-S-A { margin-right: 10px; min-height: 20px !important; min-width: 20px !important; padding-top: 1px !important;height: 20px; width: 20px;}
+.BOXPGHD-S-M { display: none; }
+.BOXPGHD-S-L { font-size: 11px;}
 
 
 /* Hide Private Discussion Banner */
-.NUXPAI-T-D.NUXPAI-T-h {
+.BOXPGHD-S-D.BOXPGHD-S-h {
     display: none;
 }
 
@@ -21,87 +21,87 @@ div.NUXPAI-T-B {min-height: 20px !important;padding-top: 1px !important;height: 
 .NUXPAI-o-a {display: none;}
 
 /* Hide Best Answer Icon */
-.NUXPAI-W-b {display: none;}
+.BOXPGHD-V-b {display: none;}
 
 /* Reduced All Topics and Discussion Categories top margin */
-.NUXPAI-T-D {margin: -40px 0 2px 22px !important;}
+.BOXPGHD-S-D {margin: -40px 0 2px 22px !important;}
 
 /* Right Side Icons Position Fix */
-.NUXPAI-W-h {margin-top: 2px !important; width:32px;}
+.BOXPGHD-V-h {margin-top: 2px !important; width:32px;}
 
 /* Fix Width of title and stop wrapping */
-.NUXPAI-T-O {display: block !important;width: 580px !important;white-space: nowrap !important;overflow: hidden !important;font-size:11px;margin-left: -26px;
+.BOXPGHD-S-O {display: block !important;width: 580px !important;white-space: nowrap !important;overflow: hidden !important;font-size:11px;margin-left: -26px;
     margin-top: 4px;}
 
 /* Escalated/Dupicate/Moved in and Locked Item Position fix and opacity removal*/
-.NUXPAI-T-N {position: relative; left: -80px; top: -17px; }
-.NUXPAI-nb-b {opacity: 1;margin-bottom: 7px; width:14px;}
-.NUXPAI-T-y .NUXPAI-M-b {opacity: 1;}
+.BOXPGHD-S-N {position: relative; left: -80px; top: -17px; }
+.BOXPGHD-mb-b {opacity: 1;margin-bottom: 7px; width:14px;}
+.BOXPGHD-S-y .NUXPAI-M-b {opacity: 1;}
 
 /* Float Author and Time to the right */
-.NUXPAI-W-m {display: block !important;float: right !important;width: 400px !important;margin-top: -34px;}
+.BOXPGHD-V-m {display: block !important;float: right !important;width: 400px !important;margin-top: -34px;}
 
 /* Fix the Author Width */
-.NUXPAI-W-c {width: 136px;font-size: 10px;}
+.BOXPGHD-V-c {width: 136px;font-size: 10px;}
 
 /* Hide the new Updated by Column */
-.NUXPAI-W-k div:nth-child(2) {display:none;}
+.BOXPGHD-V-k div:nth-child(2) {display:none;}
 
  /* Fix Position of 2nd line items */
-.NUXPAI-W-k {margin-top: 11px !important;font-size: 10px;width: 300px;padding-right: 20px;color: black;}
+.BOXPGHD-V-k {margin-top: 11px !important;font-size: 10px;width: 300px;padding-right: 20px;color: black;}
 
 /* Best Answer CSS Code */
-.NUXPAI-W-a {background-color: #5d80ef !important;border-radius: 0px !important;color: white !important;display: inline-block !important;font-size: 12px !important;  font-weight: normal !important; margin: 0px 0 !important;margin-top: 0px !important;margin-right: 0px !important;padding: 3px 0px 3px 4px !important;white-space: nowrap !important;overflow: hidden !important;width: 60px !important;position: relative !important;left: -24px !important;height: 13px;}
+.BOXPGHD-V-a {background-color: #5d80ef !important;border-radius: 0px !important;color: white !important;display: inline-block !important;font-size: 12px !important;  font-weight: normal !important; margin: 0px 0 !important;margin-top: 0px !important;margin-right: 0px !important;padding: 3px 0px 3px 4px !important;white-space: nowrap !important;overflow: hidden !important;width: 60px !important;position: relative !important;left: -24px !important;height: 13px;}
 
 /* Left align the Post Count Column where possible */
-.NUXPAI-W-k, .NUXPAI-W-k>:not(:last-child), .NUXPAI-W-l>:not(:last-child) {margin-right: 0px;text-align: left;}
+.BOXPGHD-V-k, .BOXPGHD-V-k>:not(:last-child), .BOXPGHD-V-l>:not(:last-child) {margin-right: 0px;text-align: left;}
  
  /* Style the Views and Posts Differently and improve the margin alignment when no icons present */
-div.NUXPAI-W-l > div:first-child {color:red !important;width: 32px; font-size:12px;}
-div.NUXPAI-W-l > div:nth-child(2) {color:blue !important;width: 50px; font-size:12px;text-align: right;}
-.NUXPAI-W-l>:first-child {max-width: 32px;min-width: 32px;}
-.NUXPAI-W-l {padding-left: 6px;padding-right: 12px; padding-top: 9px;margin-top: -22px;}
-.NUXPAI-W-l {font-size: 11px !important;margin-top: -12px !important;margin-right: 6px !important;color: black !important;width: 385px !important;position: relative !important;  left: 172px;display: -webkit-box;}
+div.BOXPGHD-V-l > div:first-child {color:red !important;width: 32px; font-size:12px;}
+div.BOXPGHD-V-l > div:nth-child(2) {color:blue !important;width: 50px; font-size:12px;text-align: right;}
+.BOXPGHD-V-l>:first-child {max-width: 32px;min-width: 32px;}
+.BOXPGHD-V-l {padding-left: 6px;padding-right: 12px; padding-top: 9px;margin-top: -22px;}
+.BOXPGHD-V-l {font-size: 11px !important;margin-top: -12px !important;margin-right: 6px !important;color: black !important;width: 385px !important;position: relative !important;  left: 172px;display: -webkit-box;}
 
 /* Row Margin Reduction */
-.NUXPAI-T-i .NUXPAI-T-L {padding: 0px 0 0;}
+.BOXPGHD-S-i .BOXPGHD-S-L {padding: 0px 0 0;}
 
 /* Set Row Height */
-.NUXPAI-T-Q {min-height: 20px !important;padding-top: 1px !important;height: 20px;}
+.BOXPGHD-S-Q {min-height: 20px !important;padding-top: 1px !important;height: 20px;}
 
 /* Hide User Avatar */
-.NUXPAI-T-c.NUXPAI-F-b {display: none;}
+.BOXPGHD-S-c.BOXPGHD-D-b {display: none;}
 
 /* Fix Checkbox position */
-.NUXPAI-U-c {margin-left: -4px !important;margin-top: -10px !important;display: block !important;}
+.BOXPGHD-T-c {margin-left: -4px !important;margin-top: -10px !important;display: block !important;}
 
 /* Sets the position of the Escalated-Locked etc icons outside the table */
 /* This setting is moved to “Escalated/Dupicate/Moved in and Locked Item Position fix and opacity removal” */
-/*.NUXPAI-T-M {position: relative;left: -122px;top: -18px;}*/
+/*.BOXPGHD-S-M {position: relative;left: -122px;top: -18px;}*/
 
 /* Fix to make sure Starred Discussion display */
-.NUXPAI-T-Q .NUXPAI-T-l .NUXPAI-V-c {display: inline-block;float: left;position: relative;left: 0px;margin-left: -100px;}
+.BOXPGHD-S-Q .BOXPGHD-S-l .BOXPGHD-U-b {display: inline-block;float: left;position: relative;left: 0px;margin-left: -100px;}
 
 /* Move Forum Group Font */
 span.gwt-InlineLabel {font-size: 11px;}
 
 /* Move Forum Group Spacing */
-.NUXPAI-vb-e li>div {padding: 0px 0 0px 0px;}
+.BOXPGHD-S-l span>div {padding: 0px 0 0px 0px;}
 
 /* Move Forum Group Line Height Spacing */
-.NUXPAI-vb-e li {line-height: 14px;}
+.BOXPGHD-S-l span {line-height: 14px;}
 
 /* Move Forum Group Button Spacing */
-.NUXPAI-f-d {margin: 12px 0px 12px;}
+.BOXPGHD-D-d {margin: 12px 0px 12px;}
 
 /* Move Forum Title Bar */
-.NUXPAI-b-O .NUXPAI-f-j {padding: 0px 16px 0;}
+.BOXPGHD-b-O .BOXPGHD-D-j {padding: 0px 16px 0;}
 
 /* Move Forum Remove Help Instructions */
-span.NUXPAI-f-h {display: none;}
+span.BOXPGHD-D-h {display: none;}
 
 /* Move Forum Remove Separator Bar */
-.NUXPAI-b-eb {display: none;}
+.BOXPGHD-b-eb {display: none;}
 
 
 /* ------------------------------------------------------------------ */
@@ -109,7 +109,7 @@ span.NUXPAI-f-h {display: none;}
 /* First Element is the Title Text, and the 2nd is the Snippet        */
 /* Thanks to backy0175 for the inspiration                            */
 /* ------------------------------------------------------------------ */
-.NUXPAI-T-O:hover ~ .NUXPAI-T-L {background-color: #4285f4;color: white;display: block;position: absolute;top: 1em;left: 20em; width: 400px;padding: 20px;    z-index: 999;font-size: 16px;}
+.BOXPGHD-S-O:hover ~ .BOXPGHD-S-L {background-color: #4285f4;color: white;display: block;position: absolute;top: 1em;left: 20em; width: 400px;padding: 20px;    z-index: 999;font-size: 16px;}
 
 
 /* ------------------------------------------- */
@@ -157,7 +157,7 @@ span.NUXPAI-f-h {display: none;}
 .NUXPAI-L-Q .NUXPAI-L-c h3>span {color: blue;font-weight: bold;}
 
 /* Hide the Plus 1 Button */
-.NUXPAI-L-U .NUXPAI-L-Cb {display: none;}
+.NUXPAI-L-U .BOXPGHD-C-Kb {display: none;}
 
 /* Reduce bottom padding of new replies */
 .NUXPAI-L-U .NUXPAI-L-Q .NUXPAI-L-d {margin: 0 41px 10px 0;}
@@ -174,5 +174,3 @@ span.NUXPAI-f-h {display: none;}
 .NUXPAI-D-m .NUXPAI-D-p {
   white-space: normal;
 }
-
-
