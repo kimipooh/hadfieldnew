@@ -61,7 +61,7 @@ div.BOXPGHD-V-l > div:first-child {color:red !important;width: 32px; font-size:1
 div.BOXPGHD-V-l > div:nth-child(2) {color:blue !important;width: 50px; font-size:12px;text-align: right;}
 .BOXPGHD-V-l>:first-child {max-width: 32px;min-width: 32px;}
 .BOXPGHD-V-l {padding-left: 6px;padding-right: 12px; padding-top: 9px;margin-top: -22px;}
-.BOXPGHD-V-l {font-size: 11px !important;margin-top: -12px !important;margin-right: 6px !important;color: black !important;width: 385px !important;position: relative !important;  left: 172px;display: -webkit-box;}
+.BOXPGHD-V-l {font-size: 11px !important;margin-top: -19px !important;margin-right: 6px !important;color: black !important;width: 385px !important;position: relative !important;  left: 172px;display: -webkit-box;}
 
 /* Row Margin Reduction */
 .BOXPGHD-S-i .BOXPGHD-S-L {padding: 0px 0 0;}
