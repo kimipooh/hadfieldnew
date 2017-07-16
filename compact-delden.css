@@ -1,0 +1,176 @@
+/* Remove Sliders and Hero Banners */
+.BOXPGHD-S-V {display:none;}
+
+/* Hide Pinned Topics (un-comment the line below to hide them) */
+/*.BOXPGHD-S-B {display: none;}*/
+
+/* If Pinned Topics are enabled (see above) this code compacts their display */
+/* Thanks to kimipooh for the code.*/
+div.BOXPGHD-S-B {min-height: 20px !important;padding-top: 1px !important;height: 20px;}
+.BOXPGHD-S-A { margin-right: 10px; min-height: 20px !important; min-width: 20px !important; padding-top: 1px !important;height: 20px; width: 20px;}
+.BOXPGHD-S-M { display: none; }
+.BOXPGHD-S-L { font-size: 11px;}
+
+
+/* Hide Private Discussion Banner */
+.BOXPGHD-S-D.BOXPGHD-S-h {
+    display: none;
+}
+
+/* Remove Switch Back Nag Bar */
+.NUXPAI-o-a {display: none;}
+
+/* Hide Best Answer Icon */
+.BOXPGHD-V-b {display: none;}
+
+/* Reduced All Topics and Discussion Categories top margin */
+.BOXPGHD-S-D {margin: -40px 0 2px 22px !important;}
+
+/* Right Side Icons Position Fix */
+.BOXPGHD-V-h {margin-top: 8px !important; width:32px;}
+
+/* Fix Width of title and stop wrapping */
+.BOXPGHD-S-O {display: block !important;width: 580px !important;white-space: nowrap !important;overflow: hidden !important;font-size:11px;margin-left: -26px;
+    margin-top: 4px;}
+
+/* Escalated/Dupicate/Moved in and Locked Item Position fix and opacity removal*/
+.BOXPGHD-S-N {position: relative; left: -80px; top: -17px; }
+.BOXPGHD-mb-b {opacity: 1;margin-bottom: 7px; width:14px;}
+.BOXPGHD-S-y .NUXPAI-M-b {opacity: 1;}
+
+/* Float Author and Time to the right */
+.BOXPGHD-V-m {display: block !important;float: right !important;width: 400px !important;margin-top: -34px;}
+
+/* Fix the Author Width */
+.BOXPGHD-V-c {width: 136px;font-size: 10px;}
+
+/* Hide the new Updated by Column */
+.BOXPGHD-V-k div:nth-child(2) {display:none;}
+
+ /* Fix Position of 2nd line items */
+.BOXPGHD-V-k {margin-top: 11px !important;font-size: 10px;width: 300px;padding-right: 20px;color: black;}
+
+/* Best Answer CSS Code */
+.BOXPGHD-V-a {background-color: #5d80ef !important;border-radius: 2px !important;color: white !important;display: inline-block !important;font-size: 12px !important;  font-weight: normal !important; margin: 0px 0 !important;margin-top: 7px !important;margin-right: 0px !important;padding: 1px 0px 2px 6px !important;white-space: nowrap !important;overflow: hidden !important;width: 60px !important;position: relative !important;left: -24px !important;height: 13px;}
+
+/* Left align the Post Count Column where possible */
+.BOXPGHD-V-k, .BOXPGHD-V-k>:not(:last-child), .BOXPGHD-V-l>:not(:last-child) {margin-right: 0px;text-align: left;}
+ 
+ /* Style the Views and Posts Differently and improve the margin alignment when no icons present */
+div.BOXPGHD-V-l > div:first-child {color:red !important;width: 32px; font-size:10px;}
+div.BOXPGHD-V-l > div:nth-child(2) {color:blue !important; padding-top: 7px; width: 50px; font-size:10px;text-align: right;}
+.BOXPGHD-V-l>:first-child {max-width: 32px;min-width: 32px;}
+.BOXPGHD-V-l {padding-left: 6px;padding-right: 12px; padding-top: 9px;margin-top: -22px;}
+.BOXPGHD-V-l {font-size: 11px !important;margin-top: -19px !important;margin-right: 6px !important;color: black !important;width: 385px !important;position: relative !important;  left: 172px;display: -webkit-box;}
+
+/* Row Margin Reduction */
+.BOXPGHD-S-i .BOXPGHD-S-L {padding: 0px 0 0;}
+
+/* Set Row Height */
+.BOXPGHD-S-Q {min-height: 20px !important;padding-top: 1px !important;height: 20px;}
+
+/* Hide User Avatar */
+.BOXPGHD-S-c.BOXPGHD-D-b {display: none;}
+
+/* Fix Checkbox position */
+.BOXPGHD-T-c {margin-left: -4px !important;margin-top: -10px !important;display: block !important;}
+
+/* Sets the position of the Escalated-Locked etc icons outside the table */
+/* This setting is moved to “Escalated/Dupicate/Moved in and Locked Item Position fix and opacity removal” */
+/*.BOXPGHD-S-M {position: relative;left: -122px;top: -18px;}*/
+
+/* Fix to make sure Starred Discussion display */
+.BOXPGHD-S-Q .BOXPGHD-S-l .BOXPGHD-U-b {display: inline-block;float: left;position: relative;left: 0px;margin-left: -100px;}
+
+/* Move Forum Group Font */
+span.gwt-InlineLabel {font-size: 11px;}
+
+/* Move Forum Group Spacing */
+.BOXPGHD-S-l span>div {padding: 0px 0 0px 0px;}
+
+/* Move Forum Group Line Height Spacing */
+.BOXPGHD-S-l span {line-height: 14px;}
+
+/* Move Forum Group Button Spacing */
+.BOXPGHD-D-d {margin: 12px 0px 12px;}
+
+/* Move Forum Title Bar */
+.BOXPGHD-b-O .BOXPGHD-D-j {padding: 0px 16px 0;}
+
+/* Move Forum Remove Help Instructions */
+span.BOXPGHD-D-h {display: none;}
+
+/* Move Forum Remove Separator Bar */
+.BOXPGHD-b-eb {display: none;}
+
+
+/* ------------------------------------------------------------------ */
+/* Reveal the post snippet on hover                                   */
+/* First Element is the Title Text, and the 2nd is the Snippet        */
+/* Thanks to backy0175 for the inspiration                            */
+/* ------------------------------------------------------------------ */
+.BOXPGHD-S-O:hover ~ .BOXPGHD-S-L {background-color: #4285f4;color: white;display: block;position: absolute;top: 1em;left: 20em; width: 400px;padding: 20px;    z-index: 999;font-size: 16px;}
+
+
+/* ------------------------------------------- */
+/* Post Compact Code                           */
+/* The code below is for the actual post pages */
+/* ------------------------------------------- */
+
+/* Author Bold and Blue */
+.NUXPAI-L-c {color: blue;font-weight: bold;}
+
+/* Hide similar topics  */
+.NUXPAI-L-lb {display: none;}
+
+/* Make the reply rows the same length as the original post */
+.NUXPAI-L-U .NUXPAI-K-c, .NUXPAI-L-U .NUXPAI-K-a {margin-right: 0px;margin-bottom: -25px;}
+
+/* help reduce row spacing */
+.NUXPAI-L-Q {margin-bottom: 0px;min-height: 0px !important;}
+
+/* Remove empty replies header */
+.NUXPAI-L-G {display: none;}
+
+/* reduce row padding */
+.NUXPAI-L-W .NUXPAI-L-Q {min-height: 0;padding: 6px 24px;}
+
+/* top article bottom padding */
+.NUXPAI-L-bb .NUXPAI-L-V {padding-bottom: 0px;}
+
+/* Left icon sizes */
+.NUXPAI-M-e>a>img {border-radius: 26px;width: 18px;}
+
+/* Left icon div placeholder */
+.NUXPAI-M-e {border-radius: 18px;height: 18px;width: 18px;}
+
+/* Remove the left indent for replies */
+.NUXPAI-L-U .NUXPAI-L-S {padding-left: 0px;}
+
+/* Move icons to outside the reply area */
+.NUXPAI-L-yb {margin-left: -114px;}
+
+/* Move Up and Down Navigator Widget outside the reply area */
+.NUXPAI-P-b {margin-left: -160px;}
+
+/* Change Author name to Blue Bold for new replies */
+.NUXPAI-L-Q .NUXPAI-L-c h3>span {color: blue;font-weight: bold;}
+
+/* Hide the Plus 1 Button */
+.NUXPAI-L-U .BOXPGHD-C-Kb {display: none;}
+
+/* Reduce bottom padding of new replies */
+.NUXPAI-L-U .NUXPAI-L-Q .NUXPAI-L-d {margin: 0 41px 10px 0;}
+
+/* Reduce top padding of new replies */
+.NUXPAI-L-Q {padding: 8px 24px;}
+
+
+/* --------------------------- */
+/* Forum About Page CSS Styles */
+/* --------------------------- */
+
+/* Wrap long contributor names */
+.NUXPAI-D-m .NUXPAI-D-p {
+  white-space: normal;
+}
