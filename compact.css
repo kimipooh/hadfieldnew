@@ -80,7 +80,7 @@ div.BOXPGHD-V-l > div:nth-child(2) {color:blue !important;width: 50px; font-size
 /*.BOXPGHD-S-M {position: relative;left: -122px;top: -18px;}*/
 
 /* Fix to make sure Starred Discussion display */
-.BOXPGHD-S-Q .BOXPGHD-S-l .BOXPGHD-U-b {display: inline-block;float: left;position: relative;left: 0px;margin-left: -100px;}
+.BOXPGHD-S-Q .BOXPGHD-S-l .BOXPGHD-U-a {display: inline-block;float: left;position: relative;left: 0px;margin-left: -100px;}
 
 /* Move Forum Group Font */
 span.gwt-InlineLabel {font-size: 11px;}
